@@ -156,11 +156,6 @@ func (k Keeper) GetAllHistoricalTimeIndexedTWAPs(ctx sdk.Context) ([]types.TwapR
 	return osmoutils.GatherValuesFromStorePrefix(ctx.KVStore(k.storeKey), []byte(types.HistoricalTWAPTimeIndexPrefix), types.ParseTwapFromBz)
 }
 
-// getAllHistoricalPoolIndexedTWAPs returns all historical TWAPs indexed by pool id.
-func (k Keeper) getAllHistoricalPoolIndexedTWAPs(ctx sdk.Context) ([]types.TwapRecord, error) {
-	return osmoutils.GatherValuesFromStorePrefix(ctx.KVStore(k.storeKey), []byte(types.HistoricalTWAPPoolIndexPrefix), types.ParseTwapFromBz)
-}
-
 // GetAllHistoricalPoolIndexedTWAPsForPoolId returns HistoricalTwapRecord for a pool give poolId.
 func (k Keeper) GetAllHistoricalPoolIndexedTWAPsForPoolId(ctx sdk.Context, poolId uint64) ([]types.TwapRecord, error) {
 	return osmoutils.GatherValuesFromStorePrefix(ctx.KVStore(k.storeKey), types.FormatKeyPoolTwapRecords(poolId), types.ParseTwapFromBz)

@@ -659,7 +659,7 @@ func (k Keeper) fungifyChargedPosition(ctx sdk.Context, owner sdk.AccAddress, po
 // - positions are not in the same tick range
 // - all positions are unlocked
 // NOTE: It is only used by fungifyChargedPosition which we disabled for launch.
-// nolint: unused
+// nolint: all
 func (k Keeper) validatePositionsAndGetTotalLiquidity(ctx sdk.Context, owner sdk.AccAddress, positionIds []uint64, fullyChargedDuration time.Duration) (uint64, int64, int64, sdk.Dec, error) {
 	totalLiquidity := sdk.ZeroDec()
 
