@@ -838,7 +838,7 @@ func TestSqrtPriceToTick_MinInitializedTickV1(t *testing.T) {
 // version completely.
 func TestCalculatePriceToTick_Dec_BigDec_Consistency(t *testing.T) {
 
-	t.Skip("TestCalculatePriceToTick_Dec_BigDec_Consistency is only for demo purposes. Remove this if want to confirm test results.")
+	// t.Skip("TestCalculatePriceToTick_Dec_BigDec_Consistency is only for demo purposes. Remove this if want to confirm test results.")
 
 	price := osmomath.BigDecFromSDKDec(types.MinSpotPrice)
 	increment := osmomath.BigDecFromSDKDec(sdk.SmallestDec())
@@ -849,7 +849,7 @@ func TestCalculatePriceToTick_Dec_BigDec_Consistency(t *testing.T) {
 				break
 			}
 
-			tickIndex, err := math.CalculatePriceToTick(price)
+			tickIndex, err := math.CalculatePriceToTickV1(price)
 			require.NoError(t, err)
 
 			tickIndexBigDec, err := math.CalculatePriceToTick(price)
