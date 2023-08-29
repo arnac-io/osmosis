@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export REPO=https://github.com/osmosis-labs/osmosis.git
+export REPO=https://github.com/arnac-io/osmosis.git
 export BRANCH=main
 export NODE=osmosisd
 export CLI=osmosisd

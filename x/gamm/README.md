@@ -15,7 +15,7 @@ The ``GAMM`` module (**G**eneralized **A**utomated **M**arket **M**aker) provide
 
 The `x/gamm` module implements an AMM using:
 - Balancer style pools with varying amounts and weights of assets in pools.
-- Stableswap pools have liquidity centered around a given spot price. See [here](https://github.com/osmosis-labs/osmosis/blob/main/x/gamm/pool-models/stableswap/README.md) for the spec of the Osmosis implementation.
+- Stableswap pools have liquidity centered around a given spot price. See [here](https://github.com/arnac-io/osmosis/blob/main/x/gamm/pool-models/stableswap/README.md) for the spec of the Osmosis implementation.
 
 Here we will explain basic GAMM concepts and give an overview of how GAMM module's code is organized to support both type of pools.
 
@@ -119,13 +119,13 @@ the following formula:
 
 `(tokenBalanceIn / tokenWeightIn) / (tokenBalanceOut / tokenWeightOut)`
 
-[Spot price](https://github.com/osmosis-labs/osmosis/blob/main/x/gamm/keeper/swap.go)
+[Spot price](https://github.com/arnac-io/osmosis/blob/main/x/gamm/keeper/swap.go)
 
 #### Multi-Hop
 
 The multi-hop logic is handled via `x/poolmanager` module.
 Please see for details:
-- https://github.com/osmosis-labs/osmosis/blob/main/x/poolmanager/README.md
+- https://github.com/arnac-io/osmosis/blob/main/x/poolmanager/README.md
 
 ## Weights
 
@@ -158,14 +158,14 @@ PR, to save work for our future selves)
 
 Pools have the following parameters:
 
-|  Key                       | Type                        |
-|  --------------------------| ----------------------------|
-|  SpreadFactor                   | sdk.Dec                     |
-|  ExitFee                   | sdk.Dec                     |
-|  FutureGovernor            | \*FutureGovernor            |
-|  Weights                   | \*Weights                   |
-|  SmoothWeightChangeParams  | \*SmoothWeightChangeParams  |
-|  PoolCreationFee           | sdk.Coins                   |
+| Key                      | Type                       |
+| ------------------------ | -------------------------- |
+| SpreadFactor             | sdk.Dec                    |
+| ExitFee                  | sdk.Dec                    |
+| FutureGovernor           | \*FutureGovernor           |
+| Weights                  | \*Weights                  |
+| SmoothWeightChangeParams | \*SmoothWeightChangeParams |
+| PoolCreationFee          | sdk.Coins                  |
 
 1. **SpreadFactor** -
     The spread factor is the cut of all swaps that goes to the Liquidity Providers (LPs) for a pool. Suppose a pool has a spread factor `s`. Then if a user wants to swap `T` tokens in the pool, `sT` tokens go to the LP's, and then `(1 - s)T` tokens are swapped according to the AMM swap function.
@@ -199,45 +199,45 @@ The `x/gamm` module supports the following message types:
 
 ### MsgCreateBalancerPool
 
-[MsgCreateBalancerPool](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/pool-models/balancer/tx.proto#L16-L26)
+[MsgCreateBalancerPool](https://github.com/arnac-io/osmosis/blob/v7.1.0/proto/osmosis/gamm/pool-models/balancer/tx.proto#L16-L26)
 
 ### MsgJoinPool
 
-[MsgJoinPool](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L27-L39)
+[MsgJoinPool](https://github.com/arnac-io/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L27-L39)
 
 ### MsgExitPool
 
-[MsgExitPool](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L44-L57)
+[MsgExitPool](https://github.com/arnac-io/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L44-L57)
 
 ### MsgSwapExactAmountIn
 
-[MsgSwapExactAmountIn](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L68-L80)
+[MsgSwapExactAmountIn](https://github.com/arnac-io/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L68-L80)
 
 Note, that this message was deprecated and moved to `x/poolmanager`. Please use the `MsgSwapExactAmountIn` message
 in `x/poolmanager` instead.
 
 ### MsgSwapExactAmountOut
 
-[MsgSwapExactAmountOut](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L90-L102)
+[MsgSwapExactAmountOut](https://github.com/arnac-io/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L90-L102)
 
 Note, that this message was deprecated and moved to `x/poolmanager`. Please use the `MsgSwapExactAmountOut` message
 in `x/poolmanager` instead.
 
 ### MsgJoinSwapExternAmountIn
 
-[MsgJoinSwapExternAmountIn](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L107-L119)
+[MsgJoinSwapExternAmountIn](https://github.com/arnac-io/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L107-L119)
 
 #### MsgJoinSwapShareAmountOut
 
-[MsgJoinSwapShareAmountOut](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L124-L138)
+[MsgJoinSwapShareAmountOut](https://github.com/arnac-io/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L124-L138)
 
 #### MsgExitSwapShareAmountIn
 
-[MsgExitSwapShareAmountIn](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L143-L158)
+[MsgExitSwapShareAmountIn](https://github.com/arnac-io/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L143-L158)
 
 #### MsgExitSwapExternAmountOut
 
-[MsgExitSwapExternAmountOut](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L163-L175)
+[MsgExitSwapExternAmountOut](https://github.com/arnac-io/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L163-L175)
 
 ## Transactions
 

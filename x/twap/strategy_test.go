@@ -5,11 +5,11 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/osmomath"
-	"github.com/osmosis-labs/osmosis/osmoutils/osmoassert"
-	gammtypes "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
-	"github.com/osmosis-labs/osmosis/v17/x/twap"
-	"github.com/osmosis-labs/osmosis/v17/x/twap/types"
+	"github.com/arnac-io/osmosis/osmomath"
+	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
+	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
+	"github.com/arnac-io/osmosis/v17/x/twap"
+	"github.com/arnac-io/osmosis/v17/x/twap/types"
 )
 
 type computeTwapTestCase struct {

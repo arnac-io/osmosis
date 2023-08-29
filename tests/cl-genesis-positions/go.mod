@@ -5,12 +5,12 @@ go 1.20
 require (
 	github.com/cosmos/cosmos-sdk v0.47.3
 	github.com/ignite/cli v0.23.0
-	github.com/osmosis-labs/osmosis/osmomath v0.0.3-dev.0.20230621002052-afb82fbaa312
-	github.com/osmosis-labs/osmosis/osmoutils v0.0.0-20230623115558-38aaab07d343
+	github.com/arnac-io/osmosis/osmomath v0.0.3-dev.0.20230621002052-afb82fbaa312
+	github.com/arnac-io/osmosis/osmoutils v0.0.0-20230623115558-38aaab07d343
 	github.com/tendermint/tendermint v0.37.0-rc1
 )
 
-require github.com/osmosis-labs/osmosis/v16 v16.0.0-20230630175215-d5fcd089a71c
+require github.com/arnac-io/osmosis/v16 v16.0.0-20230630175215-d5fcd089a71c
 
 require (
 	cosmossdk.io/errors v1.0.0-beta.7 // indirect
@@ -99,8 +99,8 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/mtibben/percent v0.2.1 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
-	github.com/osmosis-labs/osmosis/x/epochs v0.0.0-20230328024000-175ec88e4304 // indirect
-	github.com/osmosis-labs/osmosis/x/ibc-hooks v0.0.0-20230602130523-f9a94d8bbd10 // indirect
+	github.com/arnac-io/osmosis/x/epochs v0.0.0-20230328024000-175ec88e4304 // indirect
+	github.com/arnac-io/osmosis/x/ibc-hooks v0.0.0-20230602130523-f9a94d8bbd10 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/petermattis/goid v0.0.0-20180202154549-b0b1615b78e5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect

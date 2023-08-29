@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	"github.com/arnac-io/osmosis/v17/x/gamm/types"
 )
 
 func NewPoolParams(spreadFactor, exitFee sdk.Dec, params *SmoothWeightChangeParams) PoolParams {

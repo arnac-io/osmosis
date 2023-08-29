@@ -11,17 +11,17 @@ import (
 
 	"github.com/CosmWasm/wasmd/x/wasm/types"
 
-	ibchookskeeper "github.com/osmosis-labs/osmosis/x/ibc-hooks/keeper"
+	ibchookskeeper "github.com/arnac-io/osmosis/x/ibc-hooks/keeper"
 
 	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
 
-	"github.com/osmosis-labs/osmosis/osmoutils"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	gammtypes "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
-	minttypes "github.com/osmosis-labs/osmosis/v17/x/mint/types"
-	txfeetypes "github.com/osmosis-labs/osmosis/v17/x/txfees/types"
+	"github.com/arnac-io/osmosis/osmoutils"
+	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
+	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
+	minttypes "github.com/arnac-io/osmosis/v17/x/mint/types"
+	txfeetypes "github.com/arnac-io/osmosis/v17/x/txfees/types"
 
-	"github.com/osmosis-labs/osmosis/v17/app/apptesting"
+	"github.com/arnac-io/osmosis/v17/app/apptesting"
 
 	"github.com/stretchr/testify/suite"
 
@@ -32,9 +32,9 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
 	ibctesting "github.com/cosmos/ibc-go/v4/testing"
 
-	"github.com/osmosis-labs/osmosis/v17/tests/osmosisibctesting"
+	"github.com/arnac-io/osmosis/v17/tests/osmosisibctesting"
 
-	"github.com/osmosis-labs/osmosis/v17/tests/ibc-hooks/testutils"
+	"github.com/arnac-io/osmosis/v17/tests/ibc-hooks/testutils"
 )
 
 type HooksTestSuite struct {

@@ -8,9 +8,9 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/osmosis-labs/osmosis/osmoutils"
-	"github.com/osmosis-labs/osmosis/osmoutils/osmocli"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
+	"github.com/arnac-io/osmosis/osmoutils"
+	"github.com/arnac-io/osmosis/osmoutils/osmocli"
+	"github.com/arnac-io/osmosis/v17/x/superfluid/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
@@ -19,8 +19,8 @@ import (
 	govcli "github.com/cosmos/cosmos-sdk/x/gov/client/cli"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	gammtypes "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
 )
 
 // GetTxCmd returns the transaction commands for this module.

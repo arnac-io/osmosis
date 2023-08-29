@@ -3,9 +3,9 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/osmosis-labs/osmosis/osmoutils/osmocli"
-	"github.com/osmosis-labs/osmosis/v17/x/ibc-rate-limit/client/queryproto"
-	"github.com/osmosis-labs/osmosis/v17/x/ibc-rate-limit/types"
+	"github.com/arnac-io/osmosis/osmoutils/osmocli"
+	"github.com/arnac-io/osmosis/v17/x/ibc-rate-limit/client/queryproto"
+	"github.com/arnac-io/osmosis/v17/x/ibc-rate-limit/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module.

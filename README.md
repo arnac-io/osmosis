@@ -5,14 +5,14 @@
 [![Project Status: Active -- The project has reached a stable, usable
 state and is being actively
 developed.](https://img.shields.io/badge/repo%20status-Active-green.svg?style=flat-square)](https://www.repostatus.org/#active)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue?style=flat-square&logo=go)](https://pkg.go.dev/github.com/osmosis-labs/osmosis/v11)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue?style=flat-square&logo=go)](https://pkg.go.dev/github.com/arnac-io/osmosis/v11)
 [![Go Report
-Card](https://goreportcard.com/badge/github.com/osmosis-labs/osmosis?style=flat-square)](https://goreportcard.com/report/github.com/osmosis-labs/osmosis/v11)
-[![Version](https://img.shields.io/github/tag/osmosis-labs/osmosis.svg?style=flat-square)](https://github.com/osmosis-labs/osmosis/releases/latest)
+Card](https://goreportcard.com/badge/github.com/arnac-io/osmosis?style=flat-square)](https://goreportcard.com/report/github.com/arnac-io/osmosis/v11)
+[![Version](https://img.shields.io/github/tag/osmosis-labs/osmosis.svg?style=flat-square)](https://github.com/arnac-io/osmosis/releases/latest)
 [![License:
-Apache-2.0](https://img.shields.io/github/license/osmosis-labs/osmosis.svg?style=flat-square)](https://github.com/osmosis-labs/osmosis/blob/main/LICENSE)
+Apache-2.0](https://img.shields.io/github/license/osmosis-labs/osmosis.svg?style=flat-square)](https://github.com/arnac-io/osmosis/blob/main/LICENSE)
 [![Lines Of
-Code](https://img.shields.io/tokei/lines/github/osmosis-labs/osmosis?style=flat-square)](https://github.com/osmosis-labs/osmosis)
+Code](https://img.shields.io/tokei/lines/github/osmosis-labs/osmosis?style=flat-square)](https://github.com/arnac-io/osmosis)
 [![GitHub
 Super-Linter](https://img.shields.io/github/actions/workflow/status/osmosis-labs/osmosis/lint.yml?style=flat-square&label=Lint)](https://github.com/marketplace/actions/super-linter)
 [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/osmosis)
@@ -82,4 +82,4 @@ to use the SDK fork, and how to make / test updates to SDK branches.
 ## LocalOsmosis
 
 LocalOsmosis is a containerized local Osmosis testnet used for trying out new features locally. 
-LocalOsmosis documentation can be found [here](https://github.com/osmosis-labs/osmosis/tree/main/tests/localosmosis)
+LocalOsmosis documentation can be found [here](https://github.com/arnac-io/osmosis/tree/main/tests/localosmosis)

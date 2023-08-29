@@ -10,12 +10,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/osmosis-labs/osmosis/osmomath"
-	"github.com/osmosis-labs/osmosis/osmoutils/osmoassert"
-	sdkrand "github.com/osmosis-labs/osmosis/v17/simulation/simtypes/random"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/internal/cfmm_common"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/internal/test_helpers"
-	types "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	"github.com/arnac-io/osmosis/osmomath"
+	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
+	sdkrand "github.com/arnac-io/osmosis/v17/simulation/simtypes/random"
+	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/internal/cfmm_common"
+	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/internal/test_helpers"
+	types "github.com/arnac-io/osmosis/v17/x/gamm/types"
 )
 
 var (

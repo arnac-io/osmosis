@@ -11,8 +11,8 @@ import (
 	// "github.com/cosmos/cosmos-sdk/client/flags"
 	// sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/osmoutils/osmocli"
-	"github.com/osmosis-labs/osmosis/v17/x/tokenfactory/types"
+	"github.com/arnac-io/osmosis/osmoutils/osmocli"
+	"github.com/arnac-io/osmosis/v17/x/tokenfactory/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

@@ -13,13 +13,13 @@ import (
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/osmosis-labs/osmosis/v17/app/apptesting"
-	v17 "github.com/osmosis-labs/osmosis/v17/app/upgrades/v17"
+	"github.com/arnac-io/osmosis/v17/app/apptesting"
+	v17 "github.com/arnac-io/osmosis/v17/app/upgrades/v17"
 
-	gammmigration "github.com/osmosis-labs/osmosis/v17/x/gamm/types/migration"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
-	protorevtypes "github.com/osmosis-labs/osmosis/v17/x/protorev/types"
-	superfluidtypes "github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
+	gammmigration "github.com/arnac-io/osmosis/v17/x/gamm/types/migration"
+	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	protorevtypes "github.com/arnac-io/osmosis/v17/x/protorev/types"
+	superfluidtypes "github.com/arnac-io/osmosis/v17/x/superfluid/types"
 )
 
 type UpgradeTestSuite struct {

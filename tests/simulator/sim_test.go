@@ -13,13 +13,13 @@ import (
 	"github.com/cosmos/cosmos-sdk/simapp/helpers"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	osmosim "github.com/osmosis-labs/osmosis/v17/simulation/executor"
-	"github.com/osmosis-labs/osmosis/v17/simulation/simtypes/simlogger"
-	txfeetypes "github.com/osmosis-labs/osmosis/v17/x/txfees/types"
+	osmosim "github.com/arnac-io/osmosis/v17/simulation/executor"
+	"github.com/arnac-io/osmosis/v17/simulation/simtypes/simlogger"
+	txfeetypes "github.com/arnac-io/osmosis/v17/x/txfees/types"
 )
 
 // Profile with:
-// /usr/local/go/bin/go test -benchmem -run=^$ github.com/osmosis-labs/osmosis/simapp -bench ^BenchmarkFullAppSimulation$ -Commit=true -cpuprofile cpu.out
+// /usr/local/go/bin/go test -benchmem -run=^$ github.com/arnac-io/osmosis/simapp -bench ^BenchmarkFullAppSimulation$ -Commit=true -cpuprofile cpu.out
 func BenchmarkFullAppSimulation(b *testing.B) {
 	// -Enabled=true -NumBlocks=1000 -BlockSize=200 \
 	// -Period=1 -Commit=true -Seed=57 -v -timeout 24h

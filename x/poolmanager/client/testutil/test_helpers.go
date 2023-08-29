@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/osmosis-labs/osmosis/v17/app"
-	poolmanagercli "github.com/osmosis-labs/osmosis/v17/x/poolmanager/client/cli"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/v17/app"
+	poolmanagercli "github.com/arnac-io/osmosis/v17/x/poolmanager/client/cli"
+	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"

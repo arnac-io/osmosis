@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/arnac-io/osmosis/x/ibc-hooks/keeper"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/osmosis-labs/osmosis/x/ibc-hooks/keeper"
 	"github.com/spf13/cobra"
 
-	"github.com/osmosis-labs/osmosis/x/ibc-hooks/types"
+	"github.com/arnac-io/osmosis/x/ibc-hooks/types"
 )
 
 func indexRunCmd(cmd *cobra.Command, args []string) error {

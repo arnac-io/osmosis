@@ -17,15 +17,15 @@ import (
 	"github.com/ignite/cli/ignite/pkg/cosmosaccount"
 	"github.com/ignite/cli/ignite/pkg/cosmosclient"
 
-	"github.com/osmosis-labs/osmosis/osmoutils"
-	clqueryproto "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/client/queryproto"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	incentivestypes "github.com/osmosis-labs/osmosis/v17/x/incentives/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
-	poolmanagerqueryproto "github.com/osmosis-labs/osmosis/v17/x/poolmanager/client/queryproto"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
-	epochstypes "github.com/osmosis-labs/osmosis/x/epochs/types"
+	"github.com/arnac-io/osmosis/osmoutils"
+	clqueryproto "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/client/queryproto"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
+	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	incentivestypes "github.com/arnac-io/osmosis/v17/x/incentives/types"
+	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	poolmanagerqueryproto "github.com/arnac-io/osmosis/v17/x/poolmanager/client/queryproto"
+	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	epochstypes "github.com/arnac-io/osmosis/x/epochs/types"
 )
 
 // operation defines the desired operation to be run by this script.

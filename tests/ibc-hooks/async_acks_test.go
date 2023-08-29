@@ -11,9 +11,9 @@ import (
 	ibctesting "github.com/cosmos/ibc-go/v4/testing"
 	"github.com/tidwall/gjson"
 
-	"github.com/osmosis-labs/osmosis/osmoutils"
-	"github.com/osmosis-labs/osmosis/v17/app"
-	"github.com/osmosis-labs/osmosis/x/ibc-hooks/types"
+	"github.com/arnac-io/osmosis/osmoutils"
+	"github.com/arnac-io/osmosis/v17/app"
+	"github.com/arnac-io/osmosis/x/ibc-hooks/types"
 )
 
 func (suite *HooksTestSuite) forceContractToEmitAckForPacket(osmosisApp *app.OsmosisApp, ctx sdk.Context, contractAddr sdk.AccAddress, packet channeltypes.Packet, success bool) ([]byte, error) {

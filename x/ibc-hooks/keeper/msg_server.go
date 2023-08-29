@@ -2,8 +2,8 @@ package keeper
 
 import (
 	"context"
+	"github.com/arnac-io/osmosis/x/ibc-hooks/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/osmosis-labs/osmosis/x/ibc-hooks/types"
 	"strconv"
 )
 

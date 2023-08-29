@@ -8,14 +8,14 @@ import (
 
 	distributiontypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 
-	"github.com/osmosis-labs/osmosis/osmoutils"
-	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	gammtypes "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
-	incentivestypes "github.com/osmosis-labs/osmosis/v17/x/incentives/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
+	"github.com/arnac-io/osmosis/osmoutils"
+	cl "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
+	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
+	incentivestypes "github.com/arnac-io/osmosis/v17/x/incentives/types"
+	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	"github.com/arnac-io/osmosis/v17/x/superfluid/types"
 )
 
 func (k Keeper) AfterEpochEnd(ctx sdk.Context, epochIdentifier string, _ int64) error {
@@ -23,7 +23,7 @@ func (k Keeper) AfterEpochEnd(ctx sdk.Context, epochIdentifier string, _ int64) 
 }
 
 func (k Keeper) AfterEpochStartBeginBlock(ctx sdk.Context) {
-	// cref [#830](https://github.com/osmosis-labs/osmosis/issues/830),
+	// cref [#830](https://github.com/arnac-io/osmosis/issues/830),
 	// the supplied epoch number is wrong at time of commit. hence we get from the info.
 	curEpoch := k.ek.GetEpochInfo(ctx, k.GetEpochIdentifier(ctx)).CurrentEpoch
 

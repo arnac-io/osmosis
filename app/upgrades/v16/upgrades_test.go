@@ -13,14 +13,14 @@ import (
 	"github.com/stretchr/testify/suite"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/osmosis-labs/osmosis/osmomath"
-	"github.com/osmosis-labs/osmosis/osmoutils"
-	"github.com/osmosis-labs/osmosis/v17/app/apptesting"
-	v16 "github.com/osmosis-labs/osmosis/v17/app/upgrades/v16"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	cosmwasmpooltypes "github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/types"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
-	protorevtypes "github.com/osmosis-labs/osmosis/v17/x/protorev/types"
+	"github.com/arnac-io/osmosis/osmomath"
+	"github.com/arnac-io/osmosis/osmoutils"
+	"github.com/arnac-io/osmosis/v17/app/apptesting"
+	v16 "github.com/arnac-io/osmosis/v17/app/upgrades/v16"
+	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	cosmwasmpooltypes "github.com/arnac-io/osmosis/v17/x/cosmwasmpool/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	protorevtypes "github.com/arnac-io/osmosis/v17/x/protorev/types"
 )
 
 var (

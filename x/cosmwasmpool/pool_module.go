@@ -4,13 +4,13 @@ package cosmwasmpool
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/osmoutils"
-	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/cosmwasm/msg"
-	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/model"
-	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/types"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/osmoutils"
+	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/cosmwasm/msg"
+	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/model"
+	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
 
-	"github.com/osmosis-labs/osmosis/osmoutils/cosmwasm"
+	"github.com/arnac-io/osmosis/osmoutils/cosmwasm"
 )
 
 var (

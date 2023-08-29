@@ -7,15 +7,15 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/osmosis-labs/osmosis/osmomath"
-	"github.com/osmosis-labs/osmosis/osmoutils"
-	"github.com/osmosis-labs/osmosis/osmoutils/accum"
-	"github.com/osmosis-labs/osmosis/v17/app/apptesting"
-	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/math"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/osmomath"
+	"github.com/arnac-io/osmosis/osmoutils"
+	"github.com/arnac-io/osmosis/osmoutils/accum"
+	"github.com/arnac-io/osmosis/v17/app/apptesting"
+	cl "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/math"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
 )
 
 const (
@@ -2103,7 +2103,7 @@ func (s *KeeperTestSuite) TestNegativeTickRange_SpreadFactor() {
 	expectedTotalIncentiveRewards = expectedTotalIncentiveRewards.Add(rewardsPerSecond)
 
 	// This previously paniced due to the lack of support for negative range accumulators.
-	// See issue: https://github.com/osmosis-labs/osmosis/issues/5854
+	// See issue: https://github.com/arnac-io/osmosis/issues/5854
 	// We initialized the lower tick's accumulator (DefaultCurrTick - 25) to be greater than the upper tick's accumulator (DefaultCurrTick + 50)
 	// Whenever the current tick is above the position's range, we compute in range accumulator as upper tick accumulator - lower tick accumulator
 	// In this case, it ends up being negative, which is now supported.

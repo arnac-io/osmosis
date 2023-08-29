@@ -10,14 +10,14 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/osmosis-labs/osmosis/v17/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	gammtypes "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
-	minttypes "github.com/osmosis-labs/osmosis/v17/x/mint/types"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/keeper"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
-	epochtypes "github.com/osmosis-labs/osmosis/x/epochs/types"
+	"github.com/arnac-io/osmosis/v17/app/apptesting"
+	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
+	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
+	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	minttypes "github.com/arnac-io/osmosis/v17/x/mint/types"
+	"github.com/arnac-io/osmosis/v17/x/superfluid/keeper"
+	"github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	epochtypes "github.com/arnac-io/osmosis/x/epochs/types"
 )
 
 var DefaultGammAsset = "gamm/pool/1"

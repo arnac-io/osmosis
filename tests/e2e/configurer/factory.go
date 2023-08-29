@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/osmosis-labs/osmosis/v17/tests/e2e/configurer/chain"
-	"github.com/osmosis-labs/osmosis/v17/tests/e2e/containers"
-	"github.com/osmosis-labs/osmosis/v17/tests/e2e/initialization"
+	"github.com/arnac-io/osmosis/v17/tests/e2e/configurer/chain"
+	"github.com/arnac-io/osmosis/v17/tests/e2e/containers"
+	"github.com/arnac-io/osmosis/v17/tests/e2e/initialization"
 )
 
 type Configurer interface {

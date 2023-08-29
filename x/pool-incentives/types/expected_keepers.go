@@ -7,11 +7,11 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 
-	gammmigration "github.com/osmosis-labs/osmosis/v17/x/gamm/types/migration"
-	incentivestypes "github.com/osmosis-labs/osmosis/v17/x/incentives/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
-	epochstypes "github.com/osmosis-labs/osmosis/x/epochs/types"
+	gammmigration "github.com/arnac-io/osmosis/v17/x/gamm/types/migration"
+	incentivestypes "github.com/arnac-io/osmosis/v17/x/incentives/types"
+	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	epochstypes "github.com/arnac-io/osmosis/x/epochs/types"
 )
 
 // AccountKeeper interface contains functions for getting accounts and the module address

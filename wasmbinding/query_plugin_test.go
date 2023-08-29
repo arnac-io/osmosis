@@ -19,15 +19,15 @@ import (
 	"github.com/tendermint/tendermint/crypto/ed25519"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/osmosis-labs/osmosis/v17/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	gammv2types "github.com/osmosis-labs/osmosis/v17/x/gamm/v2types"
+	"github.com/arnac-io/osmosis/v17/app/apptesting"
+	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
+	gammv2types "github.com/arnac-io/osmosis/v17/x/gamm/v2types"
 
-	"github.com/osmosis-labs/osmosis/v17/app"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
-	epochtypes "github.com/osmosis-labs/osmosis/x/epochs/types"
+	"github.com/arnac-io/osmosis/v17/app"
+	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	epochtypes "github.com/arnac-io/osmosis/x/epochs/types"
 
-	"github.com/osmosis-labs/osmosis/v17/wasmbinding"
+	"github.com/arnac-io/osmosis/v17/wasmbinding"
 )
 
 type StargateTestSuite struct {

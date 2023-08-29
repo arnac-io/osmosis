@@ -3,10 +3,10 @@ package concentrated_liquidity_test
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/osmomath"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/client/queryproto"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/math"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types/genesis"
+	"github.com/arnac-io/osmosis/osmomath"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/client/queryproto"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/math"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types/genesis"
 )
 
 func (s *KeeperTestSuite) TestGetTickLiquidityForFullRange() {

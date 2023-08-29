@@ -12,9 +12,9 @@ import (
 	tmtypes "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/osmosis-labs/osmosis/osmomath"
-	sdkrand "github.com/osmosis-labs/osmosis/v17/simulation/simtypes/random"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	"github.com/arnac-io/osmosis/osmomath"
+	sdkrand "github.com/arnac-io/osmosis/v17/simulation/simtypes/random"
+	"github.com/arnac-io/osmosis/v17/x/gamm/types"
 )
 
 // CfmmCommonTestSuite is the common test suite struct of Constant Function Market Maker,

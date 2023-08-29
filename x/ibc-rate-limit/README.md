@@ -133,7 +133,7 @@ All other methods from those interfaces are passthroughs to the underlying imple
 The middleware uses the following parameters:
 
 | Key             | Type   |
-|-----------------|--------|
+| --------------- | ------ |
 | ContractAddress | string |
 
 1. **ContractAddress** -
@@ -143,8 +143,8 @@ The middleware uses the following parameters:
 
 Something to keep in mind with all of the code, is that we have to reason separately about every item in the following matrix:
 
-|     Native Token     |     Non-Native Token     |
-|----------------------|--------------------------|
+| Native Token         | Non-Native Token         |
+| -------------------- | ------------------------ |
 | Send Native Token    | Send Non-Native Token    |
 | Receive Native Token | Receive Non-Native Token |
 | Timeout Native Send  | Timeout Non-native Send  |
@@ -258,7 +258,7 @@ The rate limit middleware wraps the `transferIBCModule` and is added as the entr
 The module is also provided to the underlying `transferIBCModule` as its `ICS4Wrapper`; previously, this would have 
 pointed to a channel, which also implements the `ICS4Wrapper` interface.
 
-This integration can be seen in [osmosis/app/keepers/keepers.go](https://github.com/osmosis-labs/osmosis/blob/main/app/keepers/keepers.go)
+This integration can be seen in [osmosis/app/keepers/keepers.go](https://github.com/arnac-io/osmosis/blob/main/app/keepers/keepers.go)
 
 ## Testing strategy
 

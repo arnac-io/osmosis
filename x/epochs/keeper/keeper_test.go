@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	epochskeeper "github.com/osmosis-labs/osmosis/x/epochs/keeper"
-	"github.com/osmosis-labs/osmosis/x/epochs/types"
+	epochskeeper "github.com/arnac-io/osmosis/x/epochs/keeper"
+	"github.com/arnac-io/osmosis/x/epochs/types"
 )
 
 type KeeperTestSuite struct {

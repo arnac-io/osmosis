@@ -9,11 +9,11 @@ import (
 
 	"github.com/tendermint/tendermint/crypto/ed25519"
 
-	"github.com/osmosis-labs/osmosis/osmomath"
-	"github.com/osmosis-labs/osmosis/osmoutils/osmoassert"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/internal/cfmm_common"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/osmomath"
+	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
+	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/internal/cfmm_common"
+	"github.com/arnac-io/osmosis/v17/x/gamm/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
 )
 
 var (

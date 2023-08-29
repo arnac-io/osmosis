@@ -3,10 +3,10 @@ package twap
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/osmomath"
-	"github.com/osmosis-labs/osmosis/v17/x/twap/types"
+	"github.com/arnac-io/osmosis/osmomath"
+	"github.com/arnac-io/osmosis/v17/x/twap/types"
 
-	gammtypes "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
 )
 
 // twapStrategy is an interface for computing TWAPs.

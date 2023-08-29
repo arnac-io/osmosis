@@ -7,9 +7,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/osmosis-labs/osmosis/osmomath"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/math"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/osmomath"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/math"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
 )
 
 const (
@@ -614,7 +614,7 @@ func TestTickToSqrtPricePriceToTick_InverseRelationship(t *testing.T) {
 			require.NoError(t, err)
 
 			// TODO: investigate this separately
-			// https://github.com/osmosis-labs/osmosis/issues/4925
+			// https://github.com/arnac-io/osmosis/issues/4925
 			// require.Equal(t, expectedPrice.String(), priceFromSqrtPrice.String())
 
 			// 5. Compute tick from sqrt price from the original tick.

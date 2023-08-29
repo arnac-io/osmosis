@@ -8,8 +8,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/tendermint/tendermint/crypto/tmhash"
 
-	"github.com/osmosis-labs/osmosis/v17/x/protorev/keeper"
-	"github.com/osmosis-labs/osmosis/v17/x/protorev/types"
+	"github.com/arnac-io/osmosis/v17/x/protorev/keeper"
+	"github.com/arnac-io/osmosis/v17/x/protorev/types"
 )
 
 func (s *KeeperTestSuite) TestBackRunEvent() {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/osmosis-labs/osmosis/v17/app/apptesting"
+	"github.com/arnac-io/osmosis/v17/app/apptesting"
 )
 
 type WhitelistSuite struct {

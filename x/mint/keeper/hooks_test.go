@@ -6,10 +6,10 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/osmosis-labs/osmosis/osmoutils/osmoassert"
-	osmoapp "github.com/osmosis-labs/osmosis/v17/app"
-	"github.com/osmosis-labs/osmosis/v17/x/mint/keeper"
-	"github.com/osmosis-labs/osmosis/v17/x/mint/types"
+	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
+	osmoapp "github.com/arnac-io/osmosis/v17/app"
+	"github.com/arnac-io/osmosis/v17/x/mint/keeper"
+	"github.com/arnac-io/osmosis/v17/x/mint/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
@@ -429,7 +429,7 @@ func (s *KeeperTestSuite) TestAfterEpochEnd() {
 // Make sure that more specific test specs are added to validate the expected
 // supply for correctness.
 //
-// Ref: https://github.com/osmosis-labs/osmosis/issues/1917
+// Ref: https://github.com/arnac-io/osmosis/issues/1917
 func (s *KeeperTestSuite) TestAfterEpochEnd_FirstYearThirdening_RealParameters() {
 	app := osmoapp.Setup(false)
 	ctx := app.BaseApp.NewContext(false, tmproto.Header{})

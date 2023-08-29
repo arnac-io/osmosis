@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/osmosis-labs/osmosis/osmoutils"
+	"github.com/arnac-io/osmosis/osmoutils"
 )
 
 func TestReverseSlice(t *testing.T) {

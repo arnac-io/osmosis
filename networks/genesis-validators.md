@@ -97,11 +97,11 @@ go version
 ### Get Osmosis Source Code
 
 Use git to retrieve Osmosis source code from the [official
-repo](https://github.com/osmosis-labs/osmosis), and checkout the
+repo](https://github.com/arnac-io/osmosis), and checkout the
 `gentx-launch` tag, which contains the latest stable release.
 
 ``` {.sh}
-git clone https://github.com/osmosis-labs/osmosis
+git clone https://github.com/arnac-io/osmosis
 cd osmosis
 git checkout gentx-launch
 ```
@@ -373,14 +373,14 @@ are running on.
 ### Update osmosisd to v1.0.0
 
 For the gentx creation, we used the `gentx-launch` branch of the
-[Osmosis codebase](https://github.com/osmosis-labs/osmosis).
+[Osmosis codebase](https://github.com/arnac-io/osmosis).
 
 For launch, please update to the `v1.0.1` tag and rebuild your binaries.
 (The `v1.0.0` tag is also fine, `v1.0.1` just fixes a bug in displaying
 the version. The state machine for the two versions are identical)
 
 ``` {.sh}
-git clone https://github.com/osmosis-labs/osmosis
+git clone https://github.com/arnac-io/osmosis
 cd osmosis
 git checkout v1.0.1
 

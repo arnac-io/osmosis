@@ -15,9 +15,9 @@ import (
 
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	"github.com/osmosis-labs/osmosis/osmoutils/osmocli"
-	clmodel "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/osmoutils/osmocli"
+	clmodel "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
 )
 
 func NewTxCmd() *cobra.Command {

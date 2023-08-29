@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/osmoutils/accum"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/osmoutils/accum"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
 )
 
 var emptyCoins = sdk.DecCoins(nil)

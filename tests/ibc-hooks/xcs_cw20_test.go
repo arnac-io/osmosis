@@ -6,10 +6,10 @@ import (
 	"fmt"
 
 	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
+	"github.com/arnac-io/osmosis/v17/tests/osmosisibctesting"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	transfertypes "github.com/cosmos/ibc-go/v4/modules/apps/transfer/types"
 	ibctesting "github.com/cosmos/ibc-go/v4/testing"
-	"github.com/osmosis-labs/osmosis/v17/tests/osmosisibctesting"
 )
 
 // Instantiate the cw20 and cw20-ics20 contract

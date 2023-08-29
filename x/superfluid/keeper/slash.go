@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/osmosis-labs/osmosis/osmoutils"
-	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
+	"github.com/arnac-io/osmosis/osmoutils"
+	cl "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
+	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

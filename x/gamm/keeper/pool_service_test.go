@@ -8,12 +8,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	_ "github.com/osmosis-labs/osmosis/osmoutils"
-	"github.com/osmosis-labs/osmosis/osmoutils/osmoassert"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/stableswap"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	_ "github.com/arnac-io/osmosis/osmoutils"
+	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
+	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
+	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/stableswap"
+	"github.com/arnac-io/osmosis/v17/x/gamm/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
 )
 
 var (
@@ -853,7 +853,7 @@ func (s *KeeperTestSuite) TestJoinSwapExactAmountInConsistency() {
 		// TODO: Uncomment or remove this following test case once the referenced
 		// issue is resolved.
 		//
-		// Ref: https://github.com/osmosis-labs/osmosis/issues/1196
+		// Ref: https://github.com/arnac-io/osmosis/issues/1196
 		// {
 		// 	name:              "single coin with positive spread factor and zero exit fee",
 		// 	poolSpreadFactor:       sdk.NewDecWithPrec(1, 2),

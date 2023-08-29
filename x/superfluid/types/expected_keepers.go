@@ -7,13 +7,13 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	gammtypes "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
-	gammmigration "github.com/osmosis-labs/osmosis/v17/x/gamm/types/migration"
-	incentivestypes "github.com/osmosis-labs/osmosis/v17/x/incentives/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
-	epochstypes "github.com/osmosis-labs/osmosis/x/epochs/types"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
+	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
+	gammmigration "github.com/arnac-io/osmosis/v17/x/gamm/types/migration"
+	incentivestypes "github.com/arnac-io/osmosis/v17/x/incentives/types"
+	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	epochstypes "github.com/arnac-io/osmosis/x/epochs/types"
 )
 
 // LockupKeeper defines the expected interface needed to retrieve locks.

@@ -1,4 +1,4 @@
-module github.com/osmosis-labs/osmosis/v17
+module github.com/arnac-io/osmosis/v17
 
 go 1.20
 
@@ -21,10 +21,10 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.17
 	github.com/ory/dockertest/v3 v3.10.0
 	github.com/osmosis-labs/go-mutesting v0.0.0-20221208041716-b43bcd97b3b3
-	github.com/osmosis-labs/osmosis/osmomath v0.0.6
-	github.com/osmosis-labs/osmosis/osmoutils v0.0.6
-	github.com/osmosis-labs/osmosis/x/epochs v0.0.2
-	github.com/osmosis-labs/osmosis/x/ibc-hooks v0.0.8
+	github.com/arnac-io/osmosis/osmomath v0.0.6
+	github.com/arnac-io/osmosis/osmoutils v0.0.6
+	github.com/arnac-io/osmosis/x/epochs v0.0.2
+	github.com/arnac-io/osmosis/x/ibc-hooks v0.0.8
 	github.com/pkg/errors v0.9.1
 	github.com/rakyll/statik v0.1.7
 	github.com/spf13/cast v1.5.1

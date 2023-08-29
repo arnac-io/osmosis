@@ -18,7 +18,7 @@ ibc denoms of tokens on osmosis, and when to use packet forward middleware vs ca
 The second version of the contract simplifies this for users by keeping registries with the 
 necessary information and doing the token unwinding automatically. 
 
-This documentation is for the latest version of the contract. For v1, see the [previous docs](https://github.com/osmosis-labs/osmosis/tree/v15.x/cosmwasm/contracts/crosschain-swaps)
+This documentation is for the latest version of the contract. For v1, see the [previous docs](https://github.com/arnac-io/osmosis/tree/v15.x/cosmwasm/contracts/crosschain-swaps)
 
 ## Instantiation
 
@@ -318,7 +318,7 @@ To use this contract for crosschain swaps, the following are needed:
 This guide will walk you through the process of manually testing the cross-chain swapping functionality in Osmosis.
 
 To test this contract, we will use the 
-[localrelayer tool](https://github.com/osmosis-labs/osmosis/tree/main/tests/localrelayer). This tool will setup two 
+[localrelayer tool](https://github.com/arnac-io/osmosis/tree/main/tests/localrelayer). This tool will setup two 
 osmosis testnets and a relayer between them.
 
 

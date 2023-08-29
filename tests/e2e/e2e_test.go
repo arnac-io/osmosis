@@ -18,23 +18,23 @@ import (
 
 	packetforwardingtypes "github.com/cosmos/ibc-apps/middleware/packet-forward-middleware/v4/router/types"
 
-	"github.com/osmosis-labs/osmosis/osmomath"
-	ibchookskeeper "github.com/osmosis-labs/osmosis/x/ibc-hooks/keeper"
+	"github.com/arnac-io/osmosis/osmomath"
+	ibchookskeeper "github.com/arnac-io/osmosis/x/ibc-hooks/keeper"
 
-	ibcratelimittypes "github.com/osmosis-labs/osmosis/v17/x/ibc-rate-limit/types"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	ibcratelimittypes "github.com/arnac-io/osmosis/v17/x/ibc-rate-limit/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"github.com/osmosis-labs/osmosis/osmoutils/osmoassert"
-	appparams "github.com/osmosis-labs/osmosis/v17/app/params"
-	v17 "github.com/osmosis-labs/osmosis/v17/app/upgrades/v17"
-	"github.com/osmosis-labs/osmosis/v17/tests/e2e/configurer/chain"
-	"github.com/osmosis-labs/osmosis/v17/tests/e2e/configurer/config"
-	"github.com/osmosis-labs/osmosis/v17/tests/e2e/initialization"
-	clmath "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/math"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
+	appparams "github.com/arnac-io/osmosis/v17/app/params"
+	v17 "github.com/arnac-io/osmosis/v17/app/upgrades/v17"
+	"github.com/arnac-io/osmosis/v17/tests/e2e/configurer/chain"
+	"github.com/arnac-io/osmosis/v17/tests/e2e/configurer/config"
+	"github.com/arnac-io/osmosis/v17/tests/e2e/initialization"
+	clmath "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/math"
+	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
 )
 
 var (
@@ -1385,7 +1385,7 @@ func (s *IntegrationTestSuite) AddToExistingLock() {
 // because twap keep time = epoch time / 4 and we use a timer
 // to wait for at least the twap keep time.
 func (s *IntegrationTestSuite) ArithmeticTWAP() {
-	s.T().Skip("TODO: investigate further: https://github.com/osmosis-labs/osmosis/issues/4342")
+	s.T().Skip("TODO: investigate further: https://github.com/arnac-io/osmosis/issues/4342")
 
 	const (
 		poolFile   = "nativeDenomThreeAssetPool.json"

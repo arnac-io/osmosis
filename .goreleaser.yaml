@@ -172,7 +172,7 @@ release:
 
     ## Changelog
 
-    See the full changelog [here](https://github.com/osmosis-labs/osmosis/blob/v{{ .Version }}/CHANGELOG.md)
+    See the full changelog [here](https://github.com/arnac-io/osmosis/blob/v{{ .Version }}/CHANGELOG.md)
 
     ## ⚡️ Binaries
 
@@ -184,7 +184,7 @@ release:
     If you prefer to build from source, you can use the following commands:
 
     ````bash
-    git clone https://github.com/osmosis-labs/osmosis
+    git clone https://github.com/arnac-io/osmosis
     cd osmosis && git checkout v{{ .Version }}
     make install
     ````

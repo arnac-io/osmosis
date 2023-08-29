@@ -10,13 +10,13 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/osmoutils/accum"
-	osmoapp "github.com/osmosis-labs/osmosis/v17/app"
-	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
-	clmodule "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/clmodule"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types/genesis"
+	"github.com/arnac-io/osmosis/osmoutils/accum"
+	osmoapp "github.com/arnac-io/osmosis/v17/app"
+	cl "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
+	clmodule "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/clmodule"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types/genesis"
 )
 
 type singlePoolGenesisEntry struct {

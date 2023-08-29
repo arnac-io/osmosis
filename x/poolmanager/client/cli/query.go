@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/osmosis-labs/osmosis/osmoutils/osmocli"
-	"github.com/osmosis-labs/osmosis/v17/x/poolmanager/client/queryproto"
-	"github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/osmoutils/osmocli"
+	"github.com/arnac-io/osmosis/v17/x/poolmanager/client/queryproto"
+	"github.com/arnac-io/osmosis/v17/x/poolmanager/types"
 )
 
 var customRouterFlagOverride = map[string]string{

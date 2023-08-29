@@ -6,15 +6,15 @@ The binary JSON is compatible with cosmovisor and with the chain registry.
 
 You can run this script with the following commands:
 
-❯ python create_binaries_json.py --checksums_url https://github.com/osmosis-labs/osmosis/releases/download/v16.1.1/sha256sum.txt
+❯ python create_binaries_json.py --checksums_url https://github.com/arnac-io/osmosis/releases/download/v16.1.1/sha256sum.txt
 
 Output:
 {
     "binaries": {
-    "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/16.1.1/osmosisd-16.1.1-linux-arm64?checksum=<checksum>",
-    "darwin/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/16.1.1/osmosisd-16.1.1-darwin-arm64?checksum=<checksum>",
-    "darwin/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/16.1.1/osmosisd-16.1.1-darwin-amd64?checksum=<checksum>,
-    "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/16.1.1/osmosisd-16.1.1-linux-amd64?checksum=><checksum>"
+    "linux/arm64": "https://github.com/arnac-io/osmosis/releases/download/16.1.1/osmosisd-16.1.1-linux-arm64?checksum=<checksum>",
+    "darwin/arm64": "https://github.com/arnac-io/osmosis/releases/download/16.1.1/osmosisd-16.1.1-darwin-arm64?checksum=<checksum>",
+    "darwin/amd64": "https://github.com/arnac-io/osmosis/releases/download/16.1.1/osmosisd-16.1.1-darwin-amd64?checksum=<checksum>,
+    "linux/amd64": "https://github.com/arnac-io/osmosis/releases/download/16.1.1/osmosisd-16.1.1-linux-amd64?checksum=><checksum>"
     }
 }
 
@@ -29,22 +29,22 @@ Example:
 f838618633c1d42f593dc33d26b25842f5900961e987fc08570bb81a062e311d  osmosisd-16.1.1-linux-amd64
 fa6699a763487fe6699c8720a2a9be4e26a4f45aafaec87aa0c3aced4cbdd155  osmosisd-16.1.1-linux-amd64.tar.gz
 
-(From: https://github.com/osmosis-labs/osmosis/releases/download/v16.1.1/sha256sum.txt)
+(From: https://github.com/arnac-io/osmosis/releases/download/v16.1.1/sha256sum.txt)
 
 ❯ python create_binaries_json.py --tag v16.1.1
 
 Output:
 {
     "binaries": {
-    "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/16.1.1/osmosisd-16.1.1-linux-arm64?checksum=<checksum>",
-    "darwin/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/16.1.1/osmosisd-16.1.1-darwin-arm64?checksum=<checksum>",
-    "darwin/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/16.1.1/osmosisd-16.1.1-darwin-amd64?checksum=<checksum>",
-    "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/16.1.1/osmosisd-16.1.1-linux-amd64?checksum=><checksum>"
+    "linux/arm64": "https://github.com/arnac-io/osmosis/releases/download/16.1.1/osmosisd-16.1.1-linux-arm64?checksum=<checksum>",
+    "darwin/arm64": "https://github.com/arnac-io/osmosis/releases/download/16.1.1/osmosisd-16.1.1-darwin-arm64?checksum=<checksum>",
+    "darwin/amd64": "https://github.com/arnac-io/osmosis/releases/download/16.1.1/osmosisd-16.1.1-darwin-amd64?checksum=<checksum>",
+    "linux/amd64": "https://github.com/arnac-io/osmosis/releases/download/16.1.1/osmosisd-16.1.1-linux-amd64?checksum=><checksum>"
     }
 }
 
 Expect a checksum to be present at: 
-https://github.com/osmosis-labs/osmosis/releases/download/<TAG>/sha256sum.txt
+https://github.com/arnac-io/osmosis/releases/download/<TAG>/sha256sum.txt
 """
 
 import requests
@@ -83,7 +83,7 @@ def checksums_to_binaries_json(checksums):
             # exclude universal binaries and windows binaries
             if arch == 'all' or platform == 'windows':
                 continue
-            binaries[f"{platform}/{arch}"] = f"https://github.com/osmosis-labs/osmosis/releases/download/v{tag}/{filename}?checksum=sha256:{checksum}"
+            binaries[f"{platform}/{arch}"] = f"https://github.com/arnac-io/osmosis/releases/download/v{tag}/{filename}?checksum=sha256:{checksum}"
 
     binaries_json = {
         "binaries": binaries
@@ -109,7 +109,7 @@ def main():
         parser.error("Only one of tag or --checksums_url must be specified")
         sys.exit(1)
 
-    checksums_url = args.checksums_url if args.checksums_url else f"https://github.com/osmosis-labs/osmosis/releases/download/{args.tag}/sha256sum.txt"
+    checksums_url = args.checksums_url if args.checksums_url else f"https://github.com/arnac-io/osmosis/releases/download/{args.tag}/sha256sum.txt"
     checksums = download_checksums(checksums_url)
     binaries_json = checksums_to_binaries_json(checksums)
     print(binaries_json)

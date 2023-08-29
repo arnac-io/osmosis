@@ -5,10 +5,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	clmodel "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	clmodel "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
 
-	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
+	cl "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
 )
 
 var (

@@ -1,4 +1,4 @@
-module github.com/osmosis-labs/osmosis/osmoutils
+module github.com/arnac-io/osmosis/osmoutils
 
 go 1.20
 

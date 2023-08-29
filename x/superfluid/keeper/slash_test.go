@@ -1,13 +1,13 @@
 package keeper_test
 
 import (
-	"github.com/osmosis-labs/osmosis/osmomath"
-	"github.com/osmosis-labs/osmosis/osmoutils/accum"
-	"github.com/osmosis-labs/osmosis/v17/app/apptesting"
-	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/keeper"
+	"github.com/arnac-io/osmosis/osmomath"
+	"github.com/arnac-io/osmosis/osmoutils/accum"
+	"github.com/arnac-io/osmosis/v17/app/apptesting"
+	cl "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
+	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	"github.com/arnac-io/osmosis/v17/x/superfluid/keeper"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"

@@ -9,14 +9,14 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/osmosis-labs/osmosis/osmomath"
-	"github.com/osmosis-labs/osmosis/osmoutils"
-	"github.com/osmosis-labs/osmosis/osmoutils/osmoassert"
-	gammtypes "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
-	"github.com/osmosis-labs/osmosis/v17/x/twap"
-	"github.com/osmosis-labs/osmosis/v17/x/twap/types"
-	"github.com/osmosis-labs/osmosis/v17/x/twap/types/twapmock"
+	"github.com/arnac-io/osmosis/osmomath"
+	"github.com/arnac-io/osmosis/osmoutils"
+	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
+	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/v17/x/twap"
+	"github.com/arnac-io/osmosis/v17/x/twap/types"
+	"github.com/arnac-io/osmosis/v17/x/twap/types/twapmock"
 )
 
 var (

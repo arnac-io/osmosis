@@ -18,10 +18,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/osmoutils/osmocli"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/stableswap"
-	"github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/osmoutils/osmocli"
+	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
+	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/stableswap"
+	"github.com/arnac-io/osmosis/v17/x/poolmanager/types"
 )
 
 func NewTxCmd() *cobra.Command {

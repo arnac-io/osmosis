@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/osmosis-labs/osmosis/osmomath"
+	"github.com/arnac-io/osmosis/osmomath"
 )
 
 func BenchmarkCFMM(b *testing.B) {

@@ -11,10 +11,10 @@ import (
 
 	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
 	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/arnac-io/osmosis/v17/x/ibc-rate-limit/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	transfertypes "github.com/cosmos/ibc-go/v4/modules/apps/transfer/types"
-	"github.com/osmosis-labs/osmosis/v17/x/ibc-rate-limit/types"
 	"github.com/stretchr/testify/suite"
 )
 
