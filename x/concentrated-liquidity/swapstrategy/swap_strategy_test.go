@@ -7,11 +7,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
+	"github.com/arnac-io/osmosis/app/apptesting"
 	"github.com/arnac-io/osmosis/osmomath"
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	cl "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/swapstrategy"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	cl "github.com/arnac-io/osmosis/x/concentrated-liquidity"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/swapstrategy"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 )
 
 type StrategyTestSuite struct {

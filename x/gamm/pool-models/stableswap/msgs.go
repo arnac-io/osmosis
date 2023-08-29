@@ -5,8 +5,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/arnac-io/osmosis/v17/x/gamm/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/x/gamm/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 const (

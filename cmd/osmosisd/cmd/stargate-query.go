@@ -13,7 +13,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/arnac-io/osmosis/osmoutils"
-	"github.com/arnac-io/osmosis/v17/wasmbinding"
+	"github.com/arnac-io/osmosis/wasmbinding"
 
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
@@ -22,18 +22,18 @@ import (
 	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	concentratedliquidityquery "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/client/queryproto"
-	downtimequerytypes "github.com/arnac-io/osmosis/v17/x/downtime-detector/client/queryproto"
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
-	incentivestypes "github.com/arnac-io/osmosis/v17/x/incentives/types"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	minttypes "github.com/arnac-io/osmosis/v17/x/mint/types"
-	poolincentivestypes "github.com/arnac-io/osmosis/v17/x/pool-incentives/types"
-	poolmanagerqueryproto "github.com/arnac-io/osmosis/v17/x/poolmanager/client/queryproto"
-	superfluidtypes "github.com/arnac-io/osmosis/v17/x/superfluid/types"
-	twapquerytypes "github.com/arnac-io/osmosis/v17/x/twap/client/queryproto"
-	txfeestypes "github.com/arnac-io/osmosis/v17/x/txfees/types"
+	concentratedliquidityquery "github.com/arnac-io/osmosis/x/concentrated-liquidity/client/queryproto"
+	downtimequerytypes "github.com/arnac-io/osmosis/x/downtime-detector/client/queryproto"
 	epochtypes "github.com/arnac-io/osmosis/x/epochs/types"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
+	incentivestypes "github.com/arnac-io/osmosis/x/incentives/types"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	minttypes "github.com/arnac-io/osmosis/x/mint/types"
+	poolincentivestypes "github.com/arnac-io/osmosis/x/pool-incentives/types"
+	poolmanagerqueryproto "github.com/arnac-io/osmosis/x/poolmanager/client/queryproto"
+	superfluidtypes "github.com/arnac-io/osmosis/x/superfluid/types"
+	twapquerytypes "github.com/arnac-io/osmosis/x/twap/client/queryproto"
+	txfeestypes "github.com/arnac-io/osmosis/x/txfees/types"
 )
 
 // convert requested proto struct into proto marshalled bytes

@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/protorev/types"
+	"github.com/arnac-io/osmosis/x/protorev/types"
 )
 
 // InitGenesis initializes the module's state from a provided genesis state.

@@ -9,13 +9,13 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/incentives/types"
-	incentivestypes "github.com/arnac-io/osmosis/v17/x/incentives/types"
+	"github.com/arnac-io/osmosis/x/incentives/types"
+	incentivestypes "github.com/arnac-io/osmosis/x/incentives/types"
 
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
+	"github.com/arnac-io/osmosis/app/apptesting"
 
-	appParams "github.com/arnac-io/osmosis/v17/app/params"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	appParams "github.com/arnac-io/osmosis/app/params"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
 )
 
 // TestMsgCreateGauge tests if valid/invalid create gauge messages are properly validated/invalidated

@@ -13,15 +13,15 @@ import (
 	"github.com/stretchr/testify/suite"
 	abci "github.com/tendermint/tendermint/abci/types"
 
+	"github.com/arnac-io/osmosis/app/apptesting"
+	"github.com/arnac-io/osmosis/app/keepers"
+	v17 "github.com/arnac-io/osmosis/app/upgrades"
 	"github.com/arnac-io/osmosis/osmomath"
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	"github.com/arnac-io/osmosis/v17/app/keepers"
-	v17 "github.com/arnac-io/osmosis/v17/app/upgrades/v17"
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	poolManagerTypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
-	superfluidtypes "github.com/arnac-io/osmosis/v17/x/superfluid/types"
-	"github.com/arnac-io/osmosis/v17/x/twap/types"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	poolManagerTypes "github.com/arnac-io/osmosis/x/poolmanager/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
+	superfluidtypes "github.com/arnac-io/osmosis/x/superfluid/types"
+	"github.com/arnac-io/osmosis/x/twap/types"
 )
 
 type UpgradeTestSuite struct {

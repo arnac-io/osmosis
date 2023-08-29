@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/arnac-io/osmosis/v17/x/txfees/types"
+	"github.com/arnac-io/osmosis/x/txfees/types"
 )
 
 var _ types.QueryServer = Querier{}

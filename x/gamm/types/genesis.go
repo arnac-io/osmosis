@@ -1,7 +1,7 @@
 package types
 
 import (
-	gammmigration "github.com/arnac-io/osmosis/v17/x/gamm/types/migration"
+	gammmigration "github.com/arnac-io/osmosis/x/gamm/types/migration"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 )
 

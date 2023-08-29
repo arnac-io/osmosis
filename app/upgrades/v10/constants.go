@@ -1,7 +1,7 @@
 package v10
 
 import (
-	"github.com/arnac-io/osmosis/v17/app/upgrades"
+	"github.com/arnac-io/osmosis/app/upgrades"
 )
 
 // Last executed block on the v9 code was 4713064.

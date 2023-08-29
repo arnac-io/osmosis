@@ -7,7 +7,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/gamm/types"
+	"github.com/arnac-io/osmosis/x/gamm/types"
 )
 
 const poolBalanceInvariantName = "pool-account-balance-equals-expected"

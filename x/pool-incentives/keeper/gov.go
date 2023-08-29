@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/pool-incentives/types"
+	"github.com/arnac-io/osmosis/x/pool-incentives/types"
 )
 
 func (k Keeper) HandleReplacePoolIncentivesProposal(ctx sdk.Context, p *types.ReplacePoolIncentivesProposal) error {

@@ -9,12 +9,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
+	"github.com/arnac-io/osmosis/app/apptesting"
 	"github.com/arnac-io/osmosis/osmomath"
 	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	clmath "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/math"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	clmath "github.com/arnac-io/osmosis/x/concentrated-liquidity/math"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 )
 
 const (

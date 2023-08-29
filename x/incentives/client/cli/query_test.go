@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	"github.com/arnac-io/osmosis/v17/x/incentives/types"
+	"github.com/arnac-io/osmosis/app/apptesting"
+	"github.com/arnac-io/osmosis/x/incentives/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

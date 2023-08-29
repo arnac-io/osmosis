@@ -1,8 +1,8 @@
 package v12
 
 import (
-	"github.com/arnac-io/osmosis/v17/app/upgrades"
-	twaptypes "github.com/arnac-io/osmosis/v17/x/twap/types"
+	"github.com/arnac-io/osmosis/app/upgrades"
+	twaptypes "github.com/arnac-io/osmosis/x/twap/types"
 
 	store "github.com/cosmos/cosmos-sdk/store/types"
 )

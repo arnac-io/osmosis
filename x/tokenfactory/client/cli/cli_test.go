@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/arnac-io/osmosis/osmoutils/osmocli"
-	"github.com/arnac-io/osmosis/v17/x/tokenfactory/client/cli"
-	"github.com/arnac-io/osmosis/v17/x/tokenfactory/types"
+	"github.com/arnac-io/osmosis/x/tokenfactory/client/cli"
+	"github.com/arnac-io/osmosis/x/tokenfactory/types"
 )
 
 func TestGetCmdDenomAuthorityMetadata(t *testing.T) {

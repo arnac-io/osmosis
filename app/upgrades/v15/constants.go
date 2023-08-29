@@ -5,10 +5,10 @@ import (
 	packetforwardtypes "github.com/cosmos/ibc-apps/middleware/packet-forward-middleware/v4/router/types"
 	icqtypes "github.com/cosmos/ibc-apps/modules/async-icq/v4/types"
 
-	"github.com/arnac-io/osmosis/v17/app/upgrades"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
-	protorevtypes "github.com/arnac-io/osmosis/v17/x/protorev/types"
-	valsetpreftypes "github.com/arnac-io/osmosis/v17/x/valset-pref/types"
+	"github.com/arnac-io/osmosis/app/upgrades"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
+	protorevtypes "github.com/arnac-io/osmosis/x/protorev/types"
+	valsetpreftypes "github.com/arnac-io/osmosis/x/valset-pref/types"
 )
 
 // UpgradeName defines the on-chain upgrade name for the Osmosis v15 upgrade.

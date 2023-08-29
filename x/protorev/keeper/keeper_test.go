@@ -9,15 +9,15 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	"github.com/arnac-io/osmosis/v17/x/protorev"
-	protorevkeeper "github.com/arnac-io/osmosis/v17/x/protorev/keeper"
-	"github.com/arnac-io/osmosis/v17/x/protorev/types"
+	"github.com/arnac-io/osmosis/app/apptesting"
+	"github.com/arnac-io/osmosis/x/protorev"
+	protorevkeeper "github.com/arnac-io/osmosis/x/protorev/keeper"
+	"github.com/arnac-io/osmosis/x/protorev/types"
 
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/stableswap"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/balancer"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/stableswap"
 
-	osmosisapp "github.com/arnac-io/osmosis/v17/app"
+	osmosisapp "github.com/arnac-io/osmosis/app"
 )
 
 type KeeperTestSuite struct {

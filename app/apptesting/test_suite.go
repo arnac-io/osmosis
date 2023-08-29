@@ -31,15 +31,15 @@ import (
 	tmtypes "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/arnac-io/osmosis/v17/app"
+	"github.com/arnac-io/osmosis/app"
 
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/balancer"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
 
-	lockupkeeper "github.com/arnac-io/osmosis/v17/x/lockup/keeper"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	minttypes "github.com/arnac-io/osmosis/v17/x/mint/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	lockupkeeper "github.com/arnac-io/osmosis/x/lockup/keeper"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	minttypes "github.com/arnac-io/osmosis/x/mint/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 type KeeperTestHelper struct {

@@ -14,8 +14,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/app"
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
+	"github.com/arnac-io/osmosis/app"
+	"github.com/arnac-io/osmosis/app/apptesting"
 )
 
 func TestNoStorageWithoutProposal(t *testing.T) {

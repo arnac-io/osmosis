@@ -3,7 +3,7 @@ package v16
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	tokenfactorykeeper "github.com/arnac-io/osmosis/v17/x/tokenfactory/keeper"
+	tokenfactorykeeper "github.com/arnac-io/osmosis/x/tokenfactory/keeper"
 )
 
 var (

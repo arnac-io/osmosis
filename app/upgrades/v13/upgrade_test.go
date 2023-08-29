@@ -6,14 +6,14 @@ import (
 
 	ibchookstypes "github.com/arnac-io/osmosis/x/ibc-hooks/types"
 
-	ibcratelimittypes "github.com/arnac-io/osmosis/v17/x/ibc-rate-limit/types"
+	ibcratelimittypes "github.com/arnac-io/osmosis/x/ibc-rate-limit/types"
 
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 	"github.com/stretchr/testify/suite"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
+	"github.com/arnac-io/osmosis/app/apptesting"
 )
 
 type UpgradeTestSuite struct {

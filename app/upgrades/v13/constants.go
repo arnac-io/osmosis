@@ -3,7 +3,7 @@ package v13
 import (
 	store "github.com/cosmos/cosmos-sdk/store/types"
 
-	"github.com/arnac-io/osmosis/v17/app/upgrades"
+	"github.com/arnac-io/osmosis/app/upgrades"
 )
 
 // UpgradeName defines the on-chain upgrade name for the Osmosis v13 upgrade.

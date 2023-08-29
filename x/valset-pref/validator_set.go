@@ -9,11 +9,11 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/gogo/protobuf/proto"
 
+	appParams "github.com/arnac-io/osmosis/app/params"
 	"github.com/arnac-io/osmosis/osmomath"
 	"github.com/arnac-io/osmosis/osmoutils"
-	appParams "github.com/arnac-io/osmosis/v17/app/params"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	"github.com/arnac-io/osmosis/v17/x/valset-pref/types"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	"github.com/arnac-io/osmosis/x/valset-pref/types"
 )
 
 type valSet struct {

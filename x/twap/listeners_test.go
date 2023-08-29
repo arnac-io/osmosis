@@ -7,10 +7,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/arnac-io/osmosis/osmoutils"
-	"github.com/arnac-io/osmosis/v17/x/twap"
-	"github.com/arnac-io/osmosis/v17/x/twap/types"
+	"github.com/arnac-io/osmosis/x/twap"
+	"github.com/arnac-io/osmosis/x/twap/types"
 
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 var defaultPoolId uint64 = 1

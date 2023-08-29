@@ -1,4 +1,4 @@
-module github.com/arnac-io/osmosis/v17
+module github.com/arnac-io/osmosis
 
 go 1.20
 

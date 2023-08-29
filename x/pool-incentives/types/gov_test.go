@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/arnac-io/osmosis/v17/x/pool-incentives/types"
+	"github.com/arnac-io/osmosis/x/pool-incentives/types"
 	proto "github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/require"
 

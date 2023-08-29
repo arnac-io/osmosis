@@ -6,8 +6,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/arnac-io/osmosis/osmomath"
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/internal/cfmm_common"
-	types "github.com/arnac-io/osmosis/v17/x/gamm/types"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/internal/cfmm_common"
+	types "github.com/arnac-io/osmosis/x/gamm/types"
 )
 
 // Simplified multi-asset CFMM is xy(x^2 + y^2 + w) = k,

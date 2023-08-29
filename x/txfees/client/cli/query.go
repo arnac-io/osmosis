@@ -4,7 +4,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/arnac-io/osmosis/osmoutils/osmocli"
-	"github.com/arnac-io/osmosis/v17/x/txfees/types"
+	"github.com/arnac-io/osmosis/x/txfees/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module.

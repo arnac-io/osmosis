@@ -6,9 +6,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	lockupkeeper "github.com/arnac-io/osmosis/v17/x/lockup/keeper"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	"github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	lockupkeeper "github.com/arnac-io/osmosis/x/lockup/keeper"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	"github.com/arnac-io/osmosis/x/superfluid/types"
 )
 
 func (s *KeeperTestSuite) TestSuperfluidAfterEpochEnd() {

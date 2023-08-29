@@ -3,7 +3,7 @@ package twapmock
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/twap/types"
+	"github.com/arnac-io/osmosis/x/twap/types"
 )
 
 var _ types.PoolManagerInterface = &ProgrammedPoolManagerInterface{}

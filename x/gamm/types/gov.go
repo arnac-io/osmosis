@@ -7,7 +7,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	gammmigration "github.com/arnac-io/osmosis/v17/x/gamm/types/migration"
+	gammmigration "github.com/arnac-io/osmosis/x/gamm/types/migration"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/gamm/types"
+	"github.com/arnac-io/osmosis/x/gamm/types"
 )
 
 func (k Keeper) GetTotalLiquidity(ctx sdk.Context) (sdk.Coins, error) {

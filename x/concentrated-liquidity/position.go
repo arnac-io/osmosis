@@ -13,9 +13,9 @@ import (
 
 	"github.com/arnac-io/osmosis/osmoutils"
 	"github.com/arnac-io/osmosis/osmoutils/accum"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
 )
 
 const MinNumPositions = 2

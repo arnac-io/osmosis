@@ -13,7 +13,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/app"
+	"github.com/arnac-io/osmosis/app"
 )
 
 func CreateTestInput() (*app.OsmosisApp, sdk.Context) {

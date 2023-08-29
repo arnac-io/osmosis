@@ -19,17 +19,17 @@ import (
 	"github.com/stretchr/testify/require"
 	tmabcitypes "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/arnac-io/osmosis/v17/tests/e2e/util"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/client/queryproto"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
-	poolmanagerqueryproto "github.com/arnac-io/osmosis/v17/x/poolmanager/client/queryproto"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
-	protorevtypes "github.com/arnac-io/osmosis/v17/x/protorev/types"
-	superfluidtypes "github.com/arnac-io/osmosis/v17/x/superfluid/types"
-	twapqueryproto "github.com/arnac-io/osmosis/v17/x/twap/client/queryproto"
+	"github.com/arnac-io/osmosis/tests/e2e/util"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/client/queryproto"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 	epochstypes "github.com/arnac-io/osmosis/x/epochs/types"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
+	poolmanagerqueryproto "github.com/arnac-io/osmosis/x/poolmanager/client/queryproto"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
+	protorevtypes "github.com/arnac-io/osmosis/x/protorev/types"
+	superfluidtypes "github.com/arnac-io/osmosis/x/superfluid/types"
+	twapqueryproto "github.com/arnac-io/osmosis/x/twap/client/queryproto"
 )
 
 // QueryProtoRevNumberOfTrades gets the number of trades the protorev module has executed.

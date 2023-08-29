@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/model"
-	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/types"
+	"github.com/arnac-io/osmosis/x/cosmwasmpool/model"
+	"github.com/arnac-io/osmosis/x/cosmwasmpool/types"
 )
 
 type msgServer struct {

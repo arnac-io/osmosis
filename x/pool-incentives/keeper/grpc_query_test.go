@@ -7,10 +7,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	gammmigration "github.com/arnac-io/osmosis/v17/x/gamm/types/migration"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	"github.com/arnac-io/osmosis/v17/x/pool-incentives/types"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	gammmigration "github.com/arnac-io/osmosis/x/gamm/types/migration"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	"github.com/arnac-io/osmosis/x/pool-incentives/types"
 )
 
 var (

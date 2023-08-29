@@ -8,7 +8,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/arnac-io/osmosis/osmomath"
-	"github.com/arnac-io/osmosis/v17/x/twap/types"
+	"github.com/arnac-io/osmosis/x/twap/types"
 )
 
 func newTwapRecord(k types.PoolManagerInterface, ctx sdk.Context, poolId uint64, denom0, denom1 string) (types.TwapRecord, error) {

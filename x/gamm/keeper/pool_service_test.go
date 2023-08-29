@@ -10,10 +10,10 @@ import (
 
 	_ "github.com/arnac-io/osmosis/osmoutils"
 	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/stableswap"
-	"github.com/arnac-io/osmosis/v17/x/gamm/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/balancer"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/stableswap"
+	"github.com/arnac-io/osmosis/x/gamm/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 var (

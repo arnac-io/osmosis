@@ -12,8 +12,8 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/arnac-io/osmosis/v17/simulation/executor/internal/stats"
-	"github.com/arnac-io/osmosis/v17/simulation/simtypes/simlogger"
+	"github.com/arnac-io/osmosis/simulation/executor/internal/stats"
+	"github.com/arnac-io/osmosis/simulation/simtypes/simlogger"
 )
 
 // List of available flags for the simulator

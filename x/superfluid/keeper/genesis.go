@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	"github.com/arnac-io/osmosis/x/superfluid/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

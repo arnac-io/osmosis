@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/arnac-io/osmosis/v17/x/lockup/keeper"
+	"github.com/arnac-io/osmosis/x/lockup/keeper"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

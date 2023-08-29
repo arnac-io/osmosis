@@ -8,12 +8,12 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	"github.com/arnac-io/osmosis/v17/x/lockup/types"
+	"github.com/arnac-io/osmosis/app/apptesting"
+	"github.com/arnac-io/osmosis/x/lockup/types"
 
 	"github.com/tendermint/tendermint/crypto/ed25519"
 
-	appParams "github.com/arnac-io/osmosis/v17/app/params"
+	appParams "github.com/arnac-io/osmosis/app/params"
 )
 
 func TestMsgLockTokens(t *testing.T) {

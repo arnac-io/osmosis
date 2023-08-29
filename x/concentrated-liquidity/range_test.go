@@ -7,10 +7,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
+	"github.com/arnac-io/osmosis/app/apptesting"
 	"github.com/arnac-io/osmosis/osmomath"
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/math"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/math"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 )
 
 type RangeTestParams struct {

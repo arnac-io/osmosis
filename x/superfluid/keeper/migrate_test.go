@@ -11,16 +11,16 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
+	"github.com/arnac-io/osmosis/app/apptesting"
 	"github.com/arnac-io/osmosis/osmomath"
 	"github.com/arnac-io/osmosis/osmoutils"
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
-	gammmigration "github.com/arnac-io/osmosis/v17/x/gamm/types/migration"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	"github.com/arnac-io/osmosis/v17/x/superfluid/keeper"
-	"github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/balancer"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
+	gammmigration "github.com/arnac-io/osmosis/x/gamm/types/migration"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	"github.com/arnac-io/osmosis/x/superfluid/keeper"
+	"github.com/arnac-io/osmosis/x/superfluid/types"
 )
 
 var (

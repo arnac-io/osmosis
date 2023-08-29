@@ -15,14 +15,14 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/arnac-io/osmosis/v17/simulation/simtypes"
-	cosmwasmpool "github.com/arnac-io/osmosis/v17/x/cosmwasmpool"
-	moduleclient "github.com/arnac-io/osmosis/v17/x/cosmwasmpool/client"
-	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/client/cli"
-	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/client/grpc"
-	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/client/queryproto"
-	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/model"
-	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/types"
+	"github.com/arnac-io/osmosis/simulation/simtypes"
+	cosmwasmpool "github.com/arnac-io/osmosis/x/cosmwasmpool"
+	moduleclient "github.com/arnac-io/osmosis/x/cosmwasmpool/client"
+	"github.com/arnac-io/osmosis/x/cosmwasmpool/client/cli"
+	"github.com/arnac-io/osmosis/x/cosmwasmpool/client/grpc"
+	"github.com/arnac-io/osmosis/x/cosmwasmpool/client/queryproto"
+	"github.com/arnac-io/osmosis/x/cosmwasmpool/model"
+	"github.com/arnac-io/osmosis/x/cosmwasmpool/types"
 )
 
 var (

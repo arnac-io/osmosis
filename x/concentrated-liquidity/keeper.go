@@ -8,7 +8,7 @@ import (
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
 	"github.com/arnac-io/osmosis/osmoutils"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 )
 
 type Keeper struct {

@@ -5,7 +5,7 @@ import (
 	"github.com/spf13/pflag"
 
 	"github.com/arnac-io/osmosis/osmoutils/osmocli"
-	"github.com/arnac-io/osmosis/v17/x/lockup/types"
+	"github.com/arnac-io/osmosis/x/lockup/types"
 )
 
 // GetTxCmd returns the transaction commands for this module.

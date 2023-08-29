@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	simapp "github.com/arnac-io/osmosis/v17/app"
-	"github.com/arnac-io/osmosis/v17/x/superfluid"
-	"github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	simapp "github.com/arnac-io/osmosis/app"
+	"github.com/arnac-io/osmosis/x/superfluid"
+	"github.com/arnac-io/osmosis/x/superfluid/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

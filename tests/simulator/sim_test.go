@@ -13,9 +13,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/simapp/helpers"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	osmosim "github.com/arnac-io/osmosis/v17/simulation/executor"
-	"github.com/arnac-io/osmosis/v17/simulation/simtypes/simlogger"
-	txfeetypes "github.com/arnac-io/osmosis/v17/x/txfees/types"
+	osmosim "github.com/arnac-io/osmosis/simulation/executor"
+	"github.com/arnac-io/osmosis/simulation/simtypes/simlogger"
+	txfeetypes "github.com/arnac-io/osmosis/x/txfees/types"
 )
 
 // Profile with:

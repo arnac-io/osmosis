@@ -7,9 +7,9 @@ import (
 
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	"github.com/arnac-io/osmosis/v17/x/superfluid/keeper"
-	"github.com/arnac-io/osmosis/v17/x/superfluid/keeper/gov"
-	"github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	"github.com/arnac-io/osmosis/x/superfluid/keeper"
+	"github.com/arnac-io/osmosis/x/superfluid/keeper/gov"
+	"github.com/arnac-io/osmosis/x/superfluid/types"
 )
 
 func NewSuperfluidProposalHandler(k keeper.Keeper, ek types.EpochKeeper, gk types.GammKeeper) govtypes.Handler {

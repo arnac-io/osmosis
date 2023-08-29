@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/arnac-io/osmosis/v17/x/gamm/client/cli"
+	"github.com/arnac-io/osmosis/x/gamm/client/cli"
 )
 
 func TestParseCoinsNoSort(t *testing.T) {

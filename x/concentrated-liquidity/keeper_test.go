@@ -13,16 +13,16 @@ import (
 	"github.com/arnac-io/osmosis/osmomath"
 	"github.com/arnac-io/osmosis/osmoutils"
 	"github.com/arnac-io/osmosis/osmoutils/accum"
-	concentrated_liquidity "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/clmocks"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/math"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	concentrated_liquidity "github.com/arnac-io/osmosis/x/concentrated-liquidity"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/clmocks"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/math"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 
-	cl "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
+	cl "github.com/arnac-io/osmosis/x/concentrated-liquidity"
 
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
+	"github.com/arnac-io/osmosis/app/apptesting"
 )
 
 var (

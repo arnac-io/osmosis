@@ -3,12 +3,12 @@ package keeper_test
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/stableswap"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
-	"github.com/arnac-io/osmosis/v17/x/protorev/keeper"
-	protorevtypes "github.com/arnac-io/osmosis/v17/x/protorev/keeper"
-	"github.com/arnac-io/osmosis/v17/x/protorev/types"
+	"github.com/arnac-io/osmosis/app/apptesting"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/stableswap"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/x/protorev/keeper"
+	protorevtypes "github.com/arnac-io/osmosis/x/protorev/keeper"
+	"github.com/arnac-io/osmosis/x/protorev/types"
 )
 
 // Mainnet Arb Route - 2 Asset, Same Weights (Block: 5905150)

@@ -3,9 +3,9 @@ package types
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
 	epochtypes "github.com/arnac-io/osmosis/x/epochs/types"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 // AccountKeeper defines the account contract that must be fulfilled when

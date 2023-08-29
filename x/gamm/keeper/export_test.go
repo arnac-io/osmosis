@@ -3,8 +3,8 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/gamm/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/x/gamm/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 // SetParams sets the total set of params.

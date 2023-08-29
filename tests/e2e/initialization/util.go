@@ -6,7 +6,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec/unknownproto"
 	sdktx "github.com/cosmos/cosmos-sdk/types/tx"
 
-	"github.com/arnac-io/osmosis/v17/tests/e2e/util"
+	"github.com/arnac-io/osmosis/tests/e2e/util"
 )
 
 func decodeTx(txBytes []byte) (*sdktx.Tx, error) {

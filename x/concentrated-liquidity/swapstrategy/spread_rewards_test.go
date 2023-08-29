@@ -4,7 +4,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/swapstrategy"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/swapstrategy"
 )
 
 var onePercentSpreadFactor = sdk.NewDecWithPrec(1, 2)

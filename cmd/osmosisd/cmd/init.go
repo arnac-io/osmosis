@@ -27,7 +27,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 
-	"github.com/arnac-io/osmosis/v17/app"
+	"github.com/arnac-io/osmosis/app"
 )
 
 const (

@@ -12,11 +12,11 @@ import (
 	"github.com/arnac-io/osmosis/osmomath"
 	"github.com/arnac-io/osmosis/osmoutils"
 	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
-	"github.com/arnac-io/osmosis/v17/x/twap"
-	"github.com/arnac-io/osmosis/v17/x/twap/types"
-	"github.com/arnac-io/osmosis/v17/x/twap/types/twapmock"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/x/twap"
+	"github.com/arnac-io/osmosis/x/twap/types"
+	"github.com/arnac-io/osmosis/x/twap/types/twapmock"
 )
 
 var (

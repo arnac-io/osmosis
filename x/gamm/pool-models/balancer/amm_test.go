@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/internal/test_helpers"
-	"github.com/arnac-io/osmosis/v17/x/gamm/types"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/balancer"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/internal/test_helpers"
+	"github.com/arnac-io/osmosis/x/gamm/types"
 )
 
 type BalancerTestSuite struct {

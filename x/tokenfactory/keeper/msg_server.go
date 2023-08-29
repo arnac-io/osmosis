@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/arnac-io/osmosis/v17/x/tokenfactory/types"
+	"github.com/arnac-io/osmosis/x/tokenfactory/types"
 )
 
 type msgServer struct {

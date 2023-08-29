@@ -10,9 +10,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/authz"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/arnac-io/osmosis/v17/app/keepers"
-	"github.com/arnac-io/osmosis/v17/app/upgrades"
-	txfeestypes "github.com/arnac-io/osmosis/v17/x/txfees/types"
+	"github.com/arnac-io/osmosis/app/keepers"
+	"github.com/arnac-io/osmosis/app/upgrades"
+	txfeestypes "github.com/arnac-io/osmosis/x/txfees/types"
 )
 
 func CreateUpgradeHandler(

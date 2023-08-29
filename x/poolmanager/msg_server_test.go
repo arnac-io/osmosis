@@ -3,8 +3,8 @@ package poolmanager_test
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	poolmanagerKeeper "github.com/arnac-io/osmosis/v17/x/poolmanager"
-	"github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	poolmanagerKeeper "github.com/arnac-io/osmosis/x/poolmanager"
+	"github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 var (

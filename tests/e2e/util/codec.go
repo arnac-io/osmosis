@@ -8,8 +8,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	osmosisApp "github.com/arnac-io/osmosis/v17/app"
-	"github.com/arnac-io/osmosis/v17/app/params"
+	osmosisApp "github.com/arnac-io/osmosis/app"
+	"github.com/arnac-io/osmosis/app/params"
 )
 
 var (

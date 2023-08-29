@@ -9,7 +9,7 @@ import (
 
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 
-	tokenfactorykeeper "github.com/arnac-io/osmosis/v17/x/tokenfactory/keeper"
+	tokenfactorykeeper "github.com/arnac-io/osmosis/x/tokenfactory/keeper"
 )
 
 func RegisterCustomPlugins(

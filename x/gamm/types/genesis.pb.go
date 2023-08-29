@@ -11,7 +11,7 @@ import (
 	types "github.com/cosmos/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	migration "github.com/arnac-io/osmosis/v17/x/gamm/types/migration"
+	migration "github.com/arnac-io/osmosis/x/gamm/types/migration"
 	io "io"
 	math "math"
 	math_bits "math/bits"

@@ -12,10 +12,10 @@ import (
 	errorsmod "cosmossdk.io/errors"
 
 	"github.com/arnac-io/osmosis/osmoutils"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	types "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	types "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 // InitializePool initializes a new concentrated liquidity pool with the given PoolI interface and creator address.

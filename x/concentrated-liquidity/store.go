@@ -11,9 +11,9 @@ import (
 	"github.com/gogo/protobuf/proto"
 
 	"github.com/arnac-io/osmosis/osmoutils"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types/genesis"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types/genesis"
 )
 
 const (

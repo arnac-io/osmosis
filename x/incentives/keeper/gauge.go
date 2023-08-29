@@ -16,10 +16,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/incentives/types"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
 	epochtypes "github.com/arnac-io/osmosis/x/epochs/types"
+	"github.com/arnac-io/osmosis/x/incentives/types"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 // getGaugesFromIterator iterates over everything in a gauge's iterator, until it reaches the end. Return all gauges iterated over.

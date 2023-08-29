@@ -7,11 +7,11 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	incentivestypes "github.com/arnac-io/osmosis/v17/x/incentives/types"
-	"github.com/arnac-io/osmosis/v17/x/pool-incentives/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 	epochtypes "github.com/arnac-io/osmosis/x/epochs/types"
+	incentivestypes "github.com/arnac-io/osmosis/x/incentives/types"
+	"github.com/arnac-io/osmosis/x/pool-incentives/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 // AccountKeeper defines the account contract that must be fulfilled when

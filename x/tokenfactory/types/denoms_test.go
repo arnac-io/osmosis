@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	appparams "github.com/arnac-io/osmosis/v17/app/params"
-	"github.com/arnac-io/osmosis/v17/x/tokenfactory/types"
+	appparams "github.com/arnac-io/osmosis/app/params"
+	"github.com/arnac-io/osmosis/x/tokenfactory/types"
 )
 
 func TestDeconstructDenom(t *testing.T) {

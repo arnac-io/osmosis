@@ -4,8 +4,8 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/arnac-io/osmosis/osmoutils/osmocli"
-	"github.com/arnac-io/osmosis/v17/x/valset-pref/client/queryproto"
-	"github.com/arnac-io/osmosis/v17/x/valset-pref/types"
+	"github.com/arnac-io/osmosis/x/valset-pref/client/queryproto"
+	"github.com/arnac-io/osmosis/x/valset-pref/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module.

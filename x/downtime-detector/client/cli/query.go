@@ -7,8 +7,8 @@ import (
 	"github.com/spf13/pflag"
 
 	"github.com/arnac-io/osmosis/osmoutils/osmocli"
-	"github.com/arnac-io/osmosis/v17/x/downtime-detector/client/queryproto"
-	"github.com/arnac-io/osmosis/v17/x/downtime-detector/types"
+	"github.com/arnac-io/osmosis/x/downtime-detector/client/queryproto"
+	"github.com/arnac-io/osmosis/x/downtime-detector/types"
 )
 
 func GetQueryCmd() *cobra.Command {

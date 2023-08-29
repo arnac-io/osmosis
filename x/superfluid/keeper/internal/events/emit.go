@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/arnac-io/osmosis/osmoutils"
-	"github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	"github.com/arnac-io/osmosis/x/superfluid/types"
 )
 
 func EmitSetSuperfluidAssetEvent(ctx sdk.Context, denom string, assetType types.SuperfluidAssetType) {

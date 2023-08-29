@@ -11,8 +11,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 
-	"github.com/arnac-io/osmosis/v17/app/params"
-	tokenfactorytypes "github.com/arnac-io/osmosis/v17/x/tokenfactory/types"
+	"github.com/arnac-io/osmosis/app/params"
+	tokenfactorytypes "github.com/arnac-io/osmosis/x/tokenfactory/types"
 
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	authsign "github.com/cosmos/cosmos-sdk/x/auth/signing"

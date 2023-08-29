@@ -3,7 +3,7 @@ package downtimedetector
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/downtime-detector/types"
+	"github.com/arnac-io/osmosis/x/downtime-detector/types"
 )
 
 func (k *Keeper) InitGenesis(ctx sdk.Context, gen *types.GenesisState) {

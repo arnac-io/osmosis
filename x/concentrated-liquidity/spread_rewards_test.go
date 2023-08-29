@@ -6,13 +6,13 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
+	"github.com/arnac-io/osmosis/app/apptesting"
 	"github.com/arnac-io/osmosis/osmomath"
 	"github.com/arnac-io/osmosis/osmoutils/accum"
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	cl "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
-	clmath "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/math"
-	clmodel "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	cl "github.com/arnac-io/osmosis/x/concentrated-liquidity"
+	clmath "github.com/arnac-io/osmosis/x/concentrated-liquidity/math"
+	clmodel "github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 )
 
 const (

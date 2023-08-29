@@ -4,9 +4,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/arnac-io/osmosis/osmomath"
-	"github.com/arnac-io/osmosis/v17/x/twap/types"
+	"github.com/arnac-io/osmosis/x/twap/types"
 
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
 )
 
 // twapStrategy is an interface for computing TWAPs.

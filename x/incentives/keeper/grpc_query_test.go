@@ -8,9 +8,9 @@ import (
 
 	query "github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/arnac-io/osmosis/v17/x/incentives/types"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	pooltypes "github.com/arnac-io/osmosis/v17/x/pool-incentives/types"
+	"github.com/arnac-io/osmosis/x/incentives/types"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	pooltypes "github.com/arnac-io/osmosis/x/pool-incentives/types"
 )
 
 var _ = suite.TestingSuite(nil)

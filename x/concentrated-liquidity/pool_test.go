@@ -8,13 +8,13 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/arnac-io/osmosis/osmomath"
-	cl "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
-	clmodel "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
-	sftypes "github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	cl "github.com/arnac-io/osmosis/x/concentrated-liquidity"
+	clmodel "github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/balancer"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
+	sftypes "github.com/arnac-io/osmosis/x/superfluid/types"
 )
 
 func (s *KeeperTestSuite) TestInitializePool() {

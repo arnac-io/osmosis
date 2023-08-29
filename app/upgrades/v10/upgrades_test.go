@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	v10 "github.com/arnac-io/osmosis/v17/app/upgrades/v10"
+	"github.com/arnac-io/osmosis/app/apptesting"
+	v10 "github.com/arnac-io/osmosis/app/upgrades/v10"
 )
 
 type UpgradeTestSuite struct {

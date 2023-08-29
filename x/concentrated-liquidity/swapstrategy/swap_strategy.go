@@ -5,7 +5,7 @@ import (
 	dbm "github.com/tendermint/tm-db"
 
 	"github.com/arnac-io/osmosis/osmomath"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 )
 
 // swapStrategy defines the interface for computing a swap.

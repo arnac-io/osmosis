@@ -17,9 +17,9 @@ import (
 	"github.com/spf13/pflag"
 
 	"github.com/arnac-io/osmosis/osmoutils/osmocli"
-	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/cosmwasm/msg"
-	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/model"
-	"github.com/arnac-io/osmosis/v17/x/cosmwasmpool/types"
+	"github.com/arnac-io/osmosis/x/cosmwasmpool/cosmwasm/msg"
+	"github.com/arnac-io/osmosis/x/cosmwasmpool/model"
+	"github.com/arnac-io/osmosis/x/cosmwasmpool/types"
 )
 
 func NewTxCmd() *cobra.Command {

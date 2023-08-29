@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/incentives/types"
+	"github.com/arnac-io/osmosis/x/incentives/types"
 )
 
 // AddGaugeRefByKey appends the provided gauge ID into an array associated with the provided key.

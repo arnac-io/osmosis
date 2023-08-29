@@ -25,14 +25,14 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/arnac-io/osmosis/v17/simulation/simtypes"
-	"github.com/arnac-io/osmosis/v17/x/gamm/client/cli"
-	"github.com/arnac-io/osmosis/v17/x/gamm/keeper"
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/stableswap"
-	simulation "github.com/arnac-io/osmosis/v17/x/gamm/simulation"
-	"github.com/arnac-io/osmosis/v17/x/gamm/types"
-	"github.com/arnac-io/osmosis/v17/x/gamm/v2types"
+	"github.com/arnac-io/osmosis/simulation/simtypes"
+	"github.com/arnac-io/osmosis/x/gamm/client/cli"
+	"github.com/arnac-io/osmosis/x/gamm/keeper"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/balancer"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/stableswap"
+	simulation "github.com/arnac-io/osmosis/x/gamm/simulation"
+	"github.com/arnac-io/osmosis/x/gamm/types"
+	"github.com/arnac-io/osmosis/x/gamm/v2types"
 )
 
 var (

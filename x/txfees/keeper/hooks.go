@@ -4,8 +4,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/arnac-io/osmosis/osmoutils"
-	txfeestypes "github.com/arnac-io/osmosis/v17/x/txfees/types"
 	epochstypes "github.com/arnac-io/osmosis/x/epochs/types"
+	txfeestypes "github.com/arnac-io/osmosis/x/txfees/types"
 )
 
 func (k Keeper) BeforeEpochStart(ctx sdk.Context, epochIdentifier string, epochNumber int64) error {

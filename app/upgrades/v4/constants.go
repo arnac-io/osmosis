@@ -1,7 +1,7 @@
 package v4
 
 import (
-	"github.com/arnac-io/osmosis/v17/app/upgrades"
+	"github.com/arnac-io/osmosis/app/upgrades"
 
 	store "github.com/cosmos/cosmos-sdk/store/types"
 )

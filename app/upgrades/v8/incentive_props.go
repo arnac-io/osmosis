@@ -4,8 +4,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/arnac-io/osmosis/osmoutils"
-	poolincentiveskeeper "github.com/arnac-io/osmosis/v17/x/pool-incentives/keeper"
-	poolincentivestypes "github.com/arnac-io/osmosis/v17/x/pool-incentives/types"
+	poolincentiveskeeper "github.com/arnac-io/osmosis/x/pool-incentives/keeper"
+	poolincentivestypes "github.com/arnac-io/osmosis/x/pool-incentives/types"
 )
 
 // This file implements logic for accelerated incentive proposals.

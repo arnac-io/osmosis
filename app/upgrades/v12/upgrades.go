@@ -11,12 +11,12 @@ import (
 	icahosttypes "github.com/cosmos/ibc-go/v4/modules/apps/27-interchain-accounts/host/types"
 	ibctransfertypes "github.com/cosmos/ibc-go/v4/modules/apps/transfer/types"
 
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
-	superfluidtypes "github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
+	superfluidtypes "github.com/arnac-io/osmosis/x/superfluid/types"
 
-	"github.com/arnac-io/osmosis/v17/app/keepers"
-	"github.com/arnac-io/osmosis/v17/app/upgrades"
-	twaptypes "github.com/arnac-io/osmosis/v17/x/twap/types"
+	"github.com/arnac-io/osmosis/app/keepers"
+	"github.com/arnac-io/osmosis/app/upgrades"
+	twaptypes "github.com/arnac-io/osmosis/x/twap/types"
 )
 
 // We set the app version to pre-upgrade because it will be incremented by one

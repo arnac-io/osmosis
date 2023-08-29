@@ -11,8 +11,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/arnac-io/osmosis/osmomath"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/swapstrategy"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/swapstrategy"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 )
 
 const (

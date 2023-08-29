@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/arnac-io/osmosis/v17/tests/osmosisibctesting"
+	"github.com/arnac-io/osmosis/tests/osmosisibctesting"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	transfertypes "github.com/cosmos/ibc-go/v4/modules/apps/transfer/types"
 	ibctesting "github.com/cosmos/ibc-go/v4/testing"

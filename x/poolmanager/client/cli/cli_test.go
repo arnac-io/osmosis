@@ -7,13 +7,13 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
+	"github.com/arnac-io/osmosis/app"
 	"github.com/arnac-io/osmosis/osmoutils"
 	"github.com/arnac-io/osmosis/osmoutils/osmocli"
-	"github.com/arnac-io/osmosis/v17/app"
-	"github.com/arnac-io/osmosis/v17/x/poolmanager/client/cli"
-	"github.com/arnac-io/osmosis/v17/x/poolmanager/client/queryproto"
-	poolmanagertestutil "github.com/arnac-io/osmosis/v17/x/poolmanager/client/testutil"
-	"github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/x/poolmanager/client/cli"
+	"github.com/arnac-io/osmosis/x/poolmanager/client/queryproto"
+	poolmanagertestutil "github.com/arnac-io/osmosis/x/poolmanager/client/testutil"
+	"github.com/arnac-io/osmosis/x/poolmanager/types"
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/crypto/hd"

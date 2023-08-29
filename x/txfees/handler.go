@@ -7,8 +7,8 @@ import (
 
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	"github.com/arnac-io/osmosis/v17/x/txfees/keeper"
-	"github.com/arnac-io/osmosis/v17/x/txfees/types"
+	"github.com/arnac-io/osmosis/x/txfees/keeper"
+	"github.com/arnac-io/osmosis/x/txfees/types"
 )
 
 func NewUpdateFeeTokenProposalHandler(k keeper.Keeper) govtypes.Handler {

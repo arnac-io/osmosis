@@ -14,10 +14,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/arnac-io/osmosis/v17/tests/e2e/configurer/chain"
-	"github.com/arnac-io/osmosis/v17/tests/e2e/containers"
-	"github.com/arnac-io/osmosis/v17/tests/e2e/initialization"
-	"github.com/arnac-io/osmosis/v17/tests/e2e/util"
+	"github.com/arnac-io/osmosis/tests/e2e/configurer/chain"
+	"github.com/arnac-io/osmosis/tests/e2e/containers"
+	"github.com/arnac-io/osmosis/tests/e2e/initialization"
+	"github.com/arnac-io/osmosis/tests/e2e/util"
 )
 
 // baseConfigurer is the base implementation for the

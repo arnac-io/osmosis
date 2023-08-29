@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/arnac-io/osmosis/osmomath"
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/balancer"
 )
 
 func createTestPool(t *testing.T, spreadFactor, exitFee sdk.Dec, poolAssets ...balancer.PoolAsset) *balancer.Pool {

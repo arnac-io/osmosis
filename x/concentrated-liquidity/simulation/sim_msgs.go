@@ -8,13 +8,13 @@ import (
 	legacysimulationtype "github.com/cosmos/cosmos-sdk/types/simulation"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	appParams "github.com/arnac-io/osmosis/v17/app/params"
-	osmosimtypes "github.com/arnac-io/osmosis/v17/simulation/simtypes"
-	sdkrand "github.com/arnac-io/osmosis/v17/simulation/simtypes/random"
-	clkeeper "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
-	clmodeltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	minttypes "github.com/arnac-io/osmosis/v17/x/mint/types"
+	appParams "github.com/arnac-io/osmosis/app/params"
+	osmosimtypes "github.com/arnac-io/osmosis/simulation/simtypes"
+	sdkrand "github.com/arnac-io/osmosis/simulation/simtypes/random"
+	clkeeper "github.com/arnac-io/osmosis/x/concentrated-liquidity"
+	clmodeltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	minttypes "github.com/arnac-io/osmosis/x/mint/types"
 )
 
 var PoolCreationFee = sdk.NewInt64Coin("stake", 10_000_000)

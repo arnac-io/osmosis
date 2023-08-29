@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/app/keepers"
+	"github.com/arnac-io/osmosis/app/keepers"
 )
 
 func RunForkLogic(ctx sdk.Context, appKeepers *keepers.AppKeepers) {

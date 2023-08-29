@@ -5,8 +5,8 @@ import (
 
 	ibchookstypes "github.com/arnac-io/osmosis/x/ibc-hooks/types"
 
-	"github.com/arnac-io/osmosis/v17/app/upgrades"
-	downtimetypes "github.com/arnac-io/osmosis/v17/x/downtime-detector/types"
+	"github.com/arnac-io/osmosis/app/upgrades"
+	downtimetypes "github.com/arnac-io/osmosis/x/downtime-detector/types"
 )
 
 // UpgradeName defines the on-chain upgrade name for the Osmosis v14 upgrade.

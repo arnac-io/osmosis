@@ -14,8 +14,8 @@ import (
 	"github.com/gogo/protobuf/proto"
 
 	"github.com/arnac-io/osmosis/osmoutils/sumtree"
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	"github.com/arnac-io/osmosis/v17/x/lockup/types"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/x/lockup/types"
 )
 
 // WithdrawAllMaturedLocks withdraws every lock thats in the process of unlocking, and has finished unlocking by

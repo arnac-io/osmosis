@@ -7,10 +7,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/arnac-io/osmosis/v17/app/keepers"
-	"github.com/arnac-io/osmosis/v17/app/upgrades"
-	lockupkeeper "github.com/arnac-io/osmosis/v17/x/lockup/keeper"
-	superfluidtypes "github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	"github.com/arnac-io/osmosis/app/keepers"
+	"github.com/arnac-io/osmosis/app/upgrades"
+	lockupkeeper "github.com/arnac-io/osmosis/x/lockup/keeper"
+	superfluidtypes "github.com/arnac-io/osmosis/x/superfluid/types"
 )
 
 func CreateUpgradeHandler(

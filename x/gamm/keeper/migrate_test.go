@@ -8,11 +8,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
+	"github.com/arnac-io/osmosis/app/apptesting"
 	"github.com/arnac-io/osmosis/osmomath"
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	"github.com/arnac-io/osmosis/v17/x/gamm/types"
-	gammmigration "github.com/arnac-io/osmosis/v17/x/gamm/types/migration"
-	poolincentivestypes "github.com/arnac-io/osmosis/v17/x/pool-incentives/types"
+	"github.com/arnac-io/osmosis/x/gamm/types"
+	gammmigration "github.com/arnac-io/osmosis/x/gamm/types/migration"
+	poolincentivestypes "github.com/arnac-io/osmosis/x/pool-incentives/types"
 )
 
 const (

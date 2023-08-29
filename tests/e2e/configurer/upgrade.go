@@ -10,12 +10,12 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	appparams "github.com/arnac-io/osmosis/v17/app/params"
-	v17 "github.com/arnac-io/osmosis/v17/app/upgrades/v17"
-	"github.com/arnac-io/osmosis/v17/tests/e2e/configurer/chain"
-	"github.com/arnac-io/osmosis/v17/tests/e2e/configurer/config"
-	"github.com/arnac-io/osmosis/v17/tests/e2e/containers"
-	"github.com/arnac-io/osmosis/v17/tests/e2e/initialization"
+	appparams "github.com/arnac-io/osmosis/app/params"
+	v17 "github.com/arnac-io/osmosis/app/upgrades"
+	"github.com/arnac-io/osmosis/tests/e2e/configurer/chain"
+	"github.com/arnac-io/osmosis/tests/e2e/configurer/config"
+	"github.com/arnac-io/osmosis/tests/e2e/containers"
+	"github.com/arnac-io/osmosis/tests/e2e/initialization"
 )
 
 type UpgradeSettings struct {

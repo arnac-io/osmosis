@@ -8,13 +8,13 @@ import (
 
 	"github.com/arnac-io/osmosis/osmomath"
 	"github.com/arnac-io/osmosis/osmoutils/accum"
-	events "github.com/arnac-io/osmosis/v17/x/poolmanager/events"
+	events "github.com/arnac-io/osmosis/x/poolmanager/events"
 
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/math"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/swapstrategy"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/math"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/swapstrategy"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 // SwapState defines the state of a swap.

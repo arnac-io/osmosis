@@ -5,9 +5,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	types "github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	types "github.com/arnac-io/osmosis/x/superfluid/types"
 )
 
 var (

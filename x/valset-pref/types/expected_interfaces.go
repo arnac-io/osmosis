@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
 )
 
 // StakingInterface expected staking keeper.

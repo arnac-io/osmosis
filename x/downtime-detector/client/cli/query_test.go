@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/arnac-io/osmosis/osmoutils/osmocli"
-	"github.com/arnac-io/osmosis/v17/x/downtime-detector/client/cli"
-	"github.com/arnac-io/osmosis/v17/x/downtime-detector/client/queryproto"
-	"github.com/arnac-io/osmosis/v17/x/downtime-detector/types"
+	"github.com/arnac-io/osmosis/x/downtime-detector/client/cli"
+	"github.com/arnac-io/osmosis/x/downtime-detector/client/queryproto"
+	"github.com/arnac-io/osmosis/x/downtime-detector/types"
 )
 
 // We test the custom duration parser via this

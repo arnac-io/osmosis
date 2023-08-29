@@ -3,7 +3,7 @@ package v8
 import (
 	"fmt"
 
-	superfluidtypes "github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	superfluidtypes "github.com/arnac-io/osmosis/x/superfluid/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

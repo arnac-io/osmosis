@@ -16,12 +16,12 @@ import (
 
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	osmosisApp "github.com/arnac-io/osmosis/v17/app"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
+	osmosisApp "github.com/arnac-io/osmosis/app"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
 
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	clgenesis "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types/genesis"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	clgenesis "github.com/arnac-io/osmosis/x/concentrated-liquidity/types/genesis"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 func EditLocalOsmosisGenesis(updatedCLGenesis *clgenesis.GenesisState, updatedBankGenesis *banktypes.GenesisState) {

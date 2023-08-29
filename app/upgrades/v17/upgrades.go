@@ -14,16 +14,16 @@ import (
 
 	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
-	gammmigration "github.com/arnac-io/osmosis/v17/x/gamm/types/migration"
-	superfluidtypes "github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
+	gammmigration "github.com/arnac-io/osmosis/x/gamm/types/migration"
+	superfluidtypes "github.com/arnac-io/osmosis/x/superfluid/types"
 
-	"github.com/arnac-io/osmosis/v17/app/keepers"
-	"github.com/arnac-io/osmosis/v17/app/upgrades"
-	"github.com/arnac-io/osmosis/v17/x/protorev/types"
+	"github.com/arnac-io/osmosis/app/keepers"
+	"github.com/arnac-io/osmosis/app/upgrades"
+	"github.com/arnac-io/osmosis/x/protorev/types"
 
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 const (

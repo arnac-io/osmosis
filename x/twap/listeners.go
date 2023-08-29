@@ -3,9 +3,9 @@ package twap
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	concentratedliquiditytypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
+	concentratedliquiditytypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 	epochtypes "github.com/arnac-io/osmosis/x/epochs/types"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
 )
 
 var (

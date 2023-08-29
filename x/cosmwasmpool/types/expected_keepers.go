@@ -5,7 +5,7 @@ import (
 
 	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
 
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 // AccountKeeper defines the contract needed for AccountKeeper related APIs.

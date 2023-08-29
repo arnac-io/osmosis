@@ -11,15 +11,15 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
+	"github.com/arnac-io/osmosis/app"
+	"github.com/arnac-io/osmosis/app/apptesting"
 	"github.com/arnac-io/osmosis/osmomath"
 	"github.com/arnac-io/osmosis/osmoutils/accum"
-	"github.com/arnac-io/osmosis/v17/app"
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	cl "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/math"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	clgenesis "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types/genesis"
+	cl "github.com/arnac-io/osmosis/x/concentrated-liquidity"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/math"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	clgenesis "github.com/arnac-io/osmosis/x/concentrated-liquidity/types/genesis"
 )
 
 type BigBangPositions struct {

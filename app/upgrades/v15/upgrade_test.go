@@ -13,15 +13,15 @@ import (
 	transfertypes "github.com/cosmos/ibc-go/v4/modules/apps/transfer/types"
 
 	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
-	ibcratelimittypes "github.com/arnac-io/osmosis/v17/x/ibc-rate-limit/types"
+	ibcratelimittypes "github.com/arnac-io/osmosis/x/ibc-rate-limit/types"
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	v15 "github.com/arnac-io/osmosis/v17/app/upgrades/v15"
-	gamm "github.com/arnac-io/osmosis/v17/x/gamm/keeper"
-	balancer "github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/app/apptesting"
+	v15 "github.com/arnac-io/osmosis/app/upgrades/v15"
+	gamm "github.com/arnac-io/osmosis/x/gamm/keeper"
+	balancer "github.com/arnac-io/osmosis/x/gamm/pool-models/balancer"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 type UpgradeTestSuite struct {

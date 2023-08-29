@@ -21,9 +21,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/arnac-io/osmosis/v17/simulation/executor/internal/executortypes"
-	"github.com/arnac-io/osmosis/v17/simulation/executor/internal/stats"
-	"github.com/arnac-io/osmosis/v17/simulation/simtypes"
+	"github.com/arnac-io/osmosis/simulation/executor/internal/executortypes"
+	"github.com/arnac-io/osmosis/simulation/executor/internal/stats"
+	"github.com/arnac-io/osmosis/simulation/simtypes"
 )
 
 const AverageBlockTime = 6 * time.Second

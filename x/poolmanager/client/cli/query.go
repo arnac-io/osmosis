@@ -8,8 +8,8 @@ import (
 	flag "github.com/spf13/pflag"
 
 	"github.com/arnac-io/osmosis/osmoutils/osmocli"
-	"github.com/arnac-io/osmosis/v17/x/poolmanager/client/queryproto"
-	"github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/x/poolmanager/client/queryproto"
+	"github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 var customRouterFlagOverride = map[string]string{

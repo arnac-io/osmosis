@@ -21,20 +21,20 @@ import (
 	"github.com/arnac-io/osmosis/osmomath"
 	ibchookskeeper "github.com/arnac-io/osmosis/x/ibc-hooks/keeper"
 
-	ibcratelimittypes "github.com/arnac-io/osmosis/v17/x/ibc-rate-limit/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	ibcratelimittypes "github.com/arnac-io/osmosis/x/ibc-rate-limit/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 
+	appparams "github.com/arnac-io/osmosis/app/params"
+	v17 "github.com/arnac-io/osmosis/app/upgrades"
 	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
-	appparams "github.com/arnac-io/osmosis/v17/app/params"
-	v17 "github.com/arnac-io/osmosis/v17/app/upgrades/v17"
-	"github.com/arnac-io/osmosis/v17/tests/e2e/configurer/chain"
-	"github.com/arnac-io/osmosis/v17/tests/e2e/configurer/config"
-	"github.com/arnac-io/osmosis/v17/tests/e2e/initialization"
-	clmath "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/math"
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/tests/e2e/configurer/chain"
+	"github.com/arnac-io/osmosis/tests/e2e/configurer/config"
+	"github.com/arnac-io/osmosis/tests/e2e/initialization"
+	clmath "github.com/arnac-io/osmosis/x/concentrated-liquidity/math"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 )
 
 var (

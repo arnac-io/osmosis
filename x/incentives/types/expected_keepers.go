@@ -5,10 +5,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 	epochstypes "github.com/arnac-io/osmosis/x/epochs/types"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 // BankKeeper defines the expected interface needed to retrieve account balances.

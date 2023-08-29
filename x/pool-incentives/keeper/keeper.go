@@ -7,15 +7,15 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 
 	"github.com/arnac-io/osmosis/osmoutils"
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
-	incentivestypes "github.com/arnac-io/osmosis/v17/x/incentives/types"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	"github.com/arnac-io/osmosis/v17/x/pool-incentives/types"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
+	incentivestypes "github.com/arnac-io/osmosis/x/incentives/types"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	"github.com/arnac-io/osmosis/x/pool-incentives/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 type Keeper struct {

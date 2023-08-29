@@ -25,12 +25,12 @@ import (
 	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	appParams "github.com/arnac-io/osmosis/v17/app/params"
+	appParams "github.com/arnac-io/osmosis/app/params"
 
-	incentivestypes "github.com/arnac-io/osmosis/v17/x/incentives/types"
-	minttypes "github.com/arnac-io/osmosis/v17/x/mint/types"
-	poolincentivestypes "github.com/arnac-io/osmosis/v17/x/pool-incentives/types"
 	epochstypes "github.com/arnac-io/osmosis/x/epochs/types"
+	incentivestypes "github.com/arnac-io/osmosis/x/incentives/types"
+	minttypes "github.com/arnac-io/osmosis/x/mint/types"
+	poolincentivestypes "github.com/arnac-io/osmosis/x/pool-incentives/types"
 )
 
 // PrepareGenesisCmd returns prepare-genesis cobra Command.

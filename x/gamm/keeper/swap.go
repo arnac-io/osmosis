@@ -7,9 +7,9 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/arnac-io/osmosis/v17/x/gamm/types"
-	"github.com/arnac-io/osmosis/v17/x/poolmanager/events"
-	poolmanagertypes "github.com/arnac-io/osmosis/v17/x/poolmanager/types"
+	"github.com/arnac-io/osmosis/x/gamm/types"
+	"github.com/arnac-io/osmosis/x/poolmanager/events"
+	poolmanagertypes "github.com/arnac-io/osmosis/x/poolmanager/types"
 )
 
 // swapExactAmountIn is an internal method for swapping an exact amount of tokens

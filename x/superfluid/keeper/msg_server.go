@@ -8,11 +8,11 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
 
-	"github.com/arnac-io/osmosis/v17/x/superfluid/keeper/internal/events"
-	"github.com/arnac-io/osmosis/v17/x/superfluid/types"
+	"github.com/arnac-io/osmosis/x/superfluid/keeper/internal/events"
+	"github.com/arnac-io/osmosis/x/superfluid/types"
 )
 
 type msgServer struct {

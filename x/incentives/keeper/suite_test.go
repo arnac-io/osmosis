@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/arnac-io/osmosis/v17/x/incentives/types"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
+	"github.com/arnac-io/osmosis/x/incentives/types"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

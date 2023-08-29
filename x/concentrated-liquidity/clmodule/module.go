@@ -16,17 +16,17 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/arnac-io/osmosis/v17/simulation/simtypes"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/client/cli"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/client/queryproto"
-	clmodel "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/simulation"
+	"github.com/arnac-io/osmosis/simulation/simtypes"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/client/cli"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/client/queryproto"
+	clmodel "github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/simulation"
 
-	clkeeper "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
-	clclient "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/client"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/client/grpc"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types/genesis"
+	clkeeper "github.com/arnac-io/osmosis/x/concentrated-liquidity"
+	clclient "github.com/arnac-io/osmosis/x/concentrated-liquidity/client"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/client/grpc"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types/genesis"
 )
 
 var (

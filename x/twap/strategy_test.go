@@ -7,9 +7,9 @@ import (
 
 	"github.com/arnac-io/osmosis/osmomath"
 	"github.com/arnac-io/osmosis/osmoutils/osmoassert"
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
-	"github.com/arnac-io/osmosis/v17/x/twap"
-	"github.com/arnac-io/osmosis/v17/x/twap/types"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
+	"github.com/arnac-io/osmosis/x/twap"
+	"github.com/arnac-io/osmosis/x/twap/types"
 )
 
 type computeTwapTestCase struct {

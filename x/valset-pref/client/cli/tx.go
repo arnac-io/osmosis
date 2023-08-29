@@ -10,7 +10,7 @@ import (
 
 	"github.com/arnac-io/osmosis/osmoutils"
 	"github.com/arnac-io/osmosis/osmoutils/osmocli"
-	"github.com/arnac-io/osmosis/v17/x/valset-pref/types"
+	"github.com/arnac-io/osmosis/x/valset-pref/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

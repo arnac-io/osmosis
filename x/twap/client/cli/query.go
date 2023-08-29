@@ -11,9 +11,9 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/arnac-io/osmosis/osmoutils/osmocli"
-	poolmanager "github.com/arnac-io/osmosis/v17/x/poolmanager/client/queryproto"
-	"github.com/arnac-io/osmosis/v17/x/twap/client/queryproto"
-	"github.com/arnac-io/osmosis/v17/x/twap/types"
+	poolmanager "github.com/arnac-io/osmosis/x/poolmanager/client/queryproto"
+	"github.com/arnac-io/osmosis/x/twap/client/queryproto"
+	"github.com/arnac-io/osmosis/x/twap/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module.

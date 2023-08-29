@@ -7,11 +7,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	appParams "github.com/arnac-io/osmosis/v17/app/params"
+	"github.com/arnac-io/osmosis/app/apptesting"
+	appParams "github.com/arnac-io/osmosis/app/params"
 
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 )
 
 type extMsg interface {

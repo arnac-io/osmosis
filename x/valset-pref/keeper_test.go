@@ -10,12 +10,12 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/arnac-io/osmosis/v17/app/apptesting"
-	appParams "github.com/arnac-io/osmosis/v17/app/params"
-	lockuptypes "github.com/arnac-io/osmosis/v17/x/lockup/types"
-	"github.com/arnac-io/osmosis/v17/x/valset-pref/types"
+	"github.com/arnac-io/osmosis/app/apptesting"
+	appParams "github.com/arnac-io/osmosis/app/params"
+	lockuptypes "github.com/arnac-io/osmosis/x/lockup/types"
+	"github.com/arnac-io/osmosis/x/valset-pref/types"
 
-	valPref "github.com/arnac-io/osmosis/v17/x/valset-pref"
+	valPref "github.com/arnac-io/osmosis/x/valset-pref"
 )
 
 type KeeperTestSuite struct {

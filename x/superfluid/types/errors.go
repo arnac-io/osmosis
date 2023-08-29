@@ -8,7 +8,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	cltypes "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	cltypes "github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 )
 
 // x/superfluid module errors.

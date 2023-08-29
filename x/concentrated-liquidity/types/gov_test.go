@@ -7,7 +7,7 @@ import (
 	proto "github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/require"
 
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
 )
 
 func TestCreateConcentratedLiquidityPoolsProposalMarshalUnmarshal(t *testing.T) {

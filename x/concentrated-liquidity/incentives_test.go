@@ -12,14 +12,14 @@ import (
 	distributiontypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 
 	"github.com/arnac-io/osmosis/osmoutils/accum"
-	cl "github.com/arnac-io/osmosis/v17/x/concentrated-liquidity"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/math"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/arnac-io/osmosis/v17/x/concentrated-liquidity/types"
-	"github.com/arnac-io/osmosis/v17/x/gamm/pool-models/balancer"
-	gammtypes "github.com/arnac-io/osmosis/v17/x/gamm/types"
-	gammmigration "github.com/arnac-io/osmosis/v17/x/gamm/types/migration"
-	poolincentivestypes "github.com/arnac-io/osmosis/v17/x/pool-incentives/types"
+	cl "github.com/arnac-io/osmosis/x/concentrated-liquidity"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/math"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/model"
+	"github.com/arnac-io/osmosis/x/concentrated-liquidity/types"
+	"github.com/arnac-io/osmosis/x/gamm/pool-models/balancer"
+	gammtypes "github.com/arnac-io/osmosis/x/gamm/types"
+	gammmigration "github.com/arnac-io/osmosis/x/gamm/types/migration"
+	poolincentivestypes "github.com/arnac-io/osmosis/x/pool-incentives/types"
 )
 
 var (

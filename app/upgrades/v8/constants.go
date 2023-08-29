@@ -1,8 +1,8 @@
 package v8
 
 import (
-	"github.com/arnac-io/osmosis/v17/app/upgrades"
-	v8constants "github.com/arnac-io/osmosis/v17/app/upgrades/v8/constants"
+	"github.com/arnac-io/osmosis/app/upgrades"
+	v8constants "github.com/arnac-io/osmosis/app/upgrades/v8/constants"
 )
 
 const (

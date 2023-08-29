@@ -27,11 +27,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/arnac-io/osmosis/v17/x/mint/client/cli"
-	"github.com/arnac-io/osmosis/v17/x/mint/client/rest"
-	"github.com/arnac-io/osmosis/v17/x/mint/keeper"
-	"github.com/arnac-io/osmosis/v17/x/mint/simulation"
-	"github.com/arnac-io/osmosis/v17/x/mint/types"
+	"github.com/arnac-io/osmosis/x/mint/client/cli"
+	"github.com/arnac-io/osmosis/x/mint/client/rest"
+	"github.com/arnac-io/osmosis/x/mint/keeper"
+	"github.com/arnac-io/osmosis/x/mint/simulation"
+	"github.com/arnac-io/osmosis/x/mint/types"
 )
 
 var (
